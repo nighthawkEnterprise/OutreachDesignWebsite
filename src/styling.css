@@ -1,0 +1,310 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.scrollUp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+.scrollUp a {
+  font-size: 30px;
+  color: rgb(223, 93, 32);
+  text-decoration: none;
+
+  border-radius: 50%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+
+  background: white;
+}
+.navContentsFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContents a {
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0 4px;
+  color: rgb(245, 138, 88);
+  padding: 3px;
+}
+.navContents a:hover {
+  border-bottom: solid 1px rgb(245, 138, 88);
+  padding: 3px;
+}
+
+.outreachLogo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 180px;
+  margin-left: 40px;
+}
+.logoText {
+  font-size: 20px;
+  color: rgb(245, 138, 88);
+  font-weight: inherit;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: rgb(245, 138, 88) solid 1px;
+  margin: 0 15px;
+  padding: 2px;
+  font-size: 10px;
+}
+
+.searchForm a {
+  color: rgb(245, 138, 88);
+  font-size: 12px;
+
+  outline: none;
+  text-decoration: none;
+  font-weight: lighter;
+}
+#search {
+  outline: none;
+  width: 180px;
+  border: none;
+  margin-left: 5px;
+  font-size: 12px;
+  height: 18px;
+}
+.signin {
+  padding: 3px;
+  border: rgb(245, 138, 88) solid 1px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(245, 138, 88);
+}
+.signin:hover {
+  background: rgb(245, 138, 88);
+  background: rgb(158, 80, 44);
+  color: white;
+  /* border: solid 3px rgb(158, 80, 44); */
+  border: solid 1px rgb(245, 138, 88);
+}
+.getStarted {
+  text-decoration: none;
+  padding: 4px;
+
+  color: white;
+  border-radius: 4px;
+  order: none;
+  background: rgb(54, 92, 163);
+  font-size: 12px;
+}
+.getStarted:hover {
+  text-decoration: none;
+  padding: 3px;
+  background: white;
+  color: rgb(54, 92, 163);
+  border: solid 1px rgb(54, 92, 163);
+  font-size: 12px;
+}
+.signingButtens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+  margin: 0 50px 0 10px;
+}
+/* ----------------------------------------------------------- */
+.frontPage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 450px;
+  background: linear-gradient(10deg, white 10%, rgb(245, 223, 214) 90%);
+  color: rgb(107, 57, 34);
+}
+.color1 {
+  background: rgb(122, 77, 61);
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 100px / 120px;
+}
+
+.color2 {
+  background: rgb(248, 119, 68);
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 100px / 120px;
+}
+.color3 {
+  background: rgb(245, 157, 123);
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 100px / 120px;
+}
+
+.color4 {
+  background: rgb(248, 194, 173);
+  height: 100px;
+  width: 100px;
+  border-radius: 10px 100px / 120px;
+}
+.logoColors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+}
+.topColors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomColors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontPageTitle h1 {
+  font-size: 30px;
+}
+.frontPageTitle p {
+  font-size: 13px;
+  margin: 20px 0 20px;
+}
+.frontPageTitle {
+  width: 400px;
+  text-align: center;
+}
+.whatWeDo {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(107, 57, 34);
+  background: linear-gradient(10deg, white 10%, rgb(255, 250, 247) 90%);
+  margin-bottom: 100px;
+}
+.cardsPageParent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardsPage {
+  height: 780px;
+  width: 85%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  height: 220px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-animation-direction: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+
+  text-align: center;
+
+  background: linear-gradient(31deg, rgb(245, 235, 231) 50%, white 50%);
+}
+.card:hover,
+.card:focus,
+.card:active {
+  height: 210px;
+  width: 340px;
+
+  box-shadow: -3px -3px rgb(240, 237, 236), 5px 5px 5px rgb(161, 87, 49),
+    10px 10px 10px rgb(155, 81, 47);
+
+  background: linear-gradient(10deg, white 10%, rgb(245, 223, 214) 90%);
+  -webkit-transition: scale(1.1);
+  transform: scale(1.1);
+}
+.cardParent {
+  height: 240px;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+.card p {
+  font-size: 11px;
+  height: 240px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+  color: rgb(39, 78, 78);
+}
+.card p a {
+  font-size: 40px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: rgb(190, 100, 58);
+}
+
+/* -------------------------------footer--------------------------------- */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+}
+.footerLine {
+  width: 70%;
+  height: 1px;
+  background: rgb(233, 108, 51);
+  margin-bottom: 20px;
+}
+.footerContants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contacts {
+  font-size: 12px;
+  color: rgb(245, 138, 88);
+}
+.spaceLine {
+  width: 1px;
+  height: 10px;
+  background: rgb(233, 108, 51);
+  margin: 0 10px;
+}
+.llc {
+  font-size: 12px;
+  color: rgb(233, 108, 51);
+}
