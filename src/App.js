@@ -1,26 +1,18 @@
 import "./styling.css";
 import Home from "./components/Home";
-import Riyadh from "./components/Riyadh";
 
 function App() {
   return (
     <div>
       <div class="scrollUp">
-        {/* <a href="" class="fa fa-comment"></a> */}
         <a href="" class="fa fa-chevron-circle-up"></a>
-        {/* <a href="" class="fa fa-chevron-circle-up"></a>  */}
-        {/* <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>   */}
       </div>
       <nav className="navbar">
         <div className="outreachLogo">
           <img src="/images/outreach-design-logo.PNG" height="35px" />
           <div className="logoText">Outreach Design</div>
         </div>
-        {/* <div className="logo">
-          <div id="logo">
-            OutReach<spanc id="box">Design</spanc>
-          </div>
-        </div> */}
+
         <div className="navContentsFlex">
           <div className="navContents">
             <a href="">Home</a>
@@ -47,7 +39,6 @@ function App() {
       </nav>
 
       <Home />
-      {/* <Riyadh /> */}
     </div>
   );
 }
