@@ -7,18 +7,14 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9;
 }
 .scrollUp a {
-  font-size: 30px;
+  font-size: 40px;
   color: rgb(223, 93, 32);
   text-decoration: none;
-
-  border-radius: 50%;
 }
 
 .navbar {
@@ -26,7 +22,6 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-
   background: white;
 }
 .navContentsFlex {

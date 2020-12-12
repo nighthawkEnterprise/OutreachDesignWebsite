@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <div class="scrollUp">
-        <a href="" class="fa fa-chevron-circle-up"></a>
+        <a href="#" class="fa fa-chevron-circle-up"></a>
       </div>
       <nav className="navbar">
         <div className="outreachLogo">

@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import Footer from "./Footer";
 
 export class Home extends Component {
   render() {
@@ -14,9 +15,8 @@ export class Home extends Component {
               voluptatem illo enim, est laboriosam similique eaque magnam
               quaerat quasi quod? Ea, voluptatem cumque?
             </p>
-            <a href="" className="getStarted">
-              {" "}
-              Get started{" "}
+            <a href="#" className="getStarted">
+              Get started
             </a>
           </div>
           <div className="logoColors">
@@ -32,7 +32,7 @@ export class Home extends Component {
           </div>
         </div>
         <div className="whatWeDo">
-          <h1>What Do We Do For You</h1>
+          <h1>What We Do </h1>
         </div>
         <div className="cardsPageParent ">
           <div className="cardsPage">
@@ -117,25 +117,7 @@ export class Home extends Component {
           </div>
         </div>
         <div className="footer">
-          <div className="footerLine"></div>
-
-          <div className="footerContants">
-            <div className="contacts">Contact Us</div>
-            <div className="spaceLine"></div>
-            <div className="contacts">FAQ</div>
-            <div className="spaceLine"></div>
-            <div className="contacts">Reviews</div>
-            <div className="spaceLine"></div>
-            <div className="contacts">Blog</div>
-            <div className="spaceLine"></div>
-            <div className="contacts">SWE Project Contests</div>
-            <div className="spaceLine"></div>
-            <div className="contacts">Legal Stuff</div>
-          </div>
-
-          <div className="llc">
-            Copyright © 2020-2021 Outreach Design, LLC. All rights reserved.
-          </div>
+          <Footer />
         </div>
       </Fragment>
     );
