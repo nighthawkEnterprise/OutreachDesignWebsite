@@ -1,5 +1,7 @@
 import "./styling.css";
 import Home from "./components/Home";
+import ContactPage from "./components/ContactPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
       </nav>
 
       <Home />
+      <ContactPage />
+      <Footer />
     </div>
   );
 }
