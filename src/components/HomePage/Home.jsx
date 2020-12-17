@@ -1,6 +1,4 @@
 import React, { Component, Fragment } from "react";
-import Footer from "./Footer";
-
 class Home extends Component {
   render() {
     return (
@@ -50,7 +48,7 @@ class Home extends Component {
           </a>
         </div>
         <div className="whatWeDo">
-          <h1>What We're About</h1> 
+          <h1>What We're About</h1>
         </div>
         <div className="cardsPageParent ">
           <div className="cardsPage">

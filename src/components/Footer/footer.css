@@ -135,7 +135,7 @@
 .foot_icon {
   width: 140px;
   height: 4vh;
-  background-image: url("./images/mediaicon.png");
+  background-image: url("../images/mediaicon.png");
   background-repeat: no-repeat;
   background-size: 140px;
   background-color: snow;
