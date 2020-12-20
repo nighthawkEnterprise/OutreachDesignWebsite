@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Texturina:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Salsa&family=Solway:wght@300&display=swap");
+
+.grid_contain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: auto;
+}
+
+.grid_contain::before {
+  content: "";
+  border-left: 54px solid transparent;
+  border-right: 54px solid transparent;
+  border-top: 56px solid #fff;
+  content: "";
+  display: block;
+  height: 0;
+  margin: 0 auto -50px;
+  position: relative;
+  width: 0;
+}
+
+.project_speed {
+  width: 100%;
+  background: linear-gradient(10deg, white 50%, rgb(247, 216, 203) 90%);
+  display: flex;
+  height: 70vh;
+  margin-top: -0px;
+  flex-direction: column;
+  color: rgb(107, 57, 34);
+}
+
+.project_speed > p {
+  font-size: 50px;
+  margin: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: "Texturina", serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project_speed_contain {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  height: 40vh;
+}
+
+.discovery {
+  display: flex;
+  width: 250px;
+  height: 28vh;
+  background-color: whitesmoke;
+  box-shadow: 4px 4px 5px black;
+  background-image: url("../images/icon-for-discover-24.png");
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: center;
+  border: 1 solid black;
+  border-radius: 100%;
+}
+
+.discovery > p {
+  font-family: "Texturina", serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+
+.speed_text {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: auto;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.dis_text {
+  display: flex;
+  width: 380px;
+  font-family: "Solway", serif;
+  text-align: center;
+  line-height: 27px;
+  margin-right: 100px;
+}
+
+.agre_text {
+  display: flex;
+  width: 390px;
+  font-family: "Solway", serif;
+  text-align: center;
+  line-height: 27px;
+  margin-right: 100px;
+}
+
+.comp_text {
+  display: flex;
+  width: 390px;
+  font-family: "Solway", serif;
+  text-align: center;
+  line-height: 27px;
+}
+
+.agreement {
+  display: flex;
+  width: 250px;
+  height: 28vh;
+  box-shadow: 4px 4px 5px black;
+  background-image: url("../images/hand.jpg");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: center;
+  background-color: white;
+  border: 1 solid black;
+  border-radius: 100%;
+}
+
+.agreement > p {
+  font-family: "Texturina", serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 250px;
+  margin-left: 50px;
+}
+
+.completion {
+  display: flex;
+  width: 250px;
+  height: 28vh;
+  box-shadow: 4px 4px 5px black;
+  background-image: url("../images/completed.png");
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: center;
+  background-color: whitesmoke;
+  border: 1 solid black;
+  border-radius: 100%;
+}
+
+.completion > p {
+  font-family: "Texturina", serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 250px;
+  margin-left: 50px;
+}

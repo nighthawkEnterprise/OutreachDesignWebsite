@@ -7,6 +7,10 @@ import About from "./components/About";
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Activities from "./components/NavComponents/Activities";
 import Resources from "./components/NavComponents/Resources";
+import Simpledesign from "./components/SimpleDesign/Simpledesign";
+import Meetteam from "./components/MeetTeam/Meetteam";
+
+
 
 
 
@@ -20,7 +24,8 @@ function App() {
       </Router>
     
       <Home />
-      <About />
+      <Simpledesign />
+      <Meetteam />
       <ContactPage />
       <Footer />
     </div>
