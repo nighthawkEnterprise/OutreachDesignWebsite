@@ -1,7 +1,9 @@
 import "./styling.css";
-import Home from "./components/Home";
-import ContactPage from "./components/ContactPage";
-import Footer from "./components/Footer";
+import Home from "./components/HomePage/Home";
+import ContactPage from "./components/ContactPage/ContactPage";
+import Footer from "./components/Footer/Footer";
+import Simpledesign from "./components/SimpleDesign/Simpledesign";
+import Meetteam from "./components/MeetTeam/Meetteam";
 
 function App() {
   return (
@@ -40,6 +42,8 @@ function App() {
         </div>
       </nav>
       <Home />
+      <Simpledesign />
+      <Meetteam />
       <ContactPage />
       <Footer />
     </div>
