@@ -10,10 +10,6 @@ import Resources from "./components/NavComponents/Resources";
 import Simpledesign from "./components/SimpleDesign/Simpledesign";
 import Meetteam from "./components/MeetTeam/Meetteam";
 
-
-
-
-
 function App() {
   return (
     <div>
@@ -25,8 +21,10 @@ function App() {
     
       <Home />
       <Simpledesign />
+      <About />
       <Meetteam />
       <ContactPage />
+
       <Footer />
     </div>
   );
