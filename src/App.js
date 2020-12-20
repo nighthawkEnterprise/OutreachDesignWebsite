@@ -1,7 +1,7 @@
 import "./styling.css";
-import Home from "./components/Home";
-import ContactPage from "./components/ContactPage";
-import Footer from "./components/Footer";
+import Home from "./components/HomePage/Home";
+import ContactPage from "./components/ContactPage/ContactPage";
+import Footer from "./components/Footer/Footer";
 import Nav from "./components/NavComponents/Nav";
 import About from "./components/About";
 import {BrowserRouter as Router, Route} from 'react-router-dom';
