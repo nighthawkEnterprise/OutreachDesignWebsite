@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Texturina:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Salsa&family=Solway:wght@300&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -193,13 +199,23 @@
 .frontPageTitle h1 {
   margin-top: 50px;
   font-size: 30px;
+  font-family: "Texturina", serif;
 }
+
 .frontPageTitle p {
+<<<<<<< HEAD
   font-size: 15px;
+=======
+  font-size: 17px;
+>>>>>>> 66b5eee083da4081153b5583998d760e4e37760c
   margin: 20px 0 20px;
   width: 500px;
   text-align: justify;
   line-height: 28px;
+<<<<<<< HEAD
+=======
+  font-family: "Texturina", serif;
+>>>>>>> 66b5eee083da4081153b5583998d760e4e37760c
 }
 .frontPageTitle {
   width: 400px;
@@ -213,7 +229,10 @@
   font-size: 20px;
   color: rgb(107, 57, 34);
   background: linear-gradient(10deg, white 10%, rgb(255, 250, 247) 90%);
-  /* margin-top: 100px; */
+}
+
+.whatWeDo h1 {
+  font-family: "Texturina", serif;
 }
 
 .cardsPageParent {
@@ -440,6 +459,11 @@
 .contactUs {
   margin-bottom: 30px;
 }
+
+.contactUs h1 {
+  font-family: "Texturina", serif;
+}
+
 .contactPageChild {
   display: flex;
   justify-content: center;

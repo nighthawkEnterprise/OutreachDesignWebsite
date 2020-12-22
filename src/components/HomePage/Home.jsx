@@ -4,7 +4,7 @@ class Home extends Component {
     return (
       <Fragment>
         {" "}
-        <div className="frontPage">
+        <div className="frontPage" id="home">
           <div className="frontPageTitle">
             <h1>Where Work Happens</h1>
             <p>
@@ -18,7 +18,10 @@ class Home extends Component {
               leaving many businesses happy. Let chat about your website ideas
               and work together to achieve your goals. Get 30% whooper discount!
             </p>{" "}
+<<<<<<< HEAD
             <br />
+=======
+>>>>>>> 66b5eee083da4081153b5583998d760e4e37760c
             <a href="#" className="getStarted">
               Get started
             </a>
@@ -53,6 +56,7 @@ class Home extends Component {
             <h2>info</h2>
           </a>
         </div>
+<<<<<<< HEAD
         <div className="whatWeDo">
           <h1>What We're About</h1>
         </div>
@@ -143,6 +147,8 @@ class Home extends Component {
             </d>
           </div>
         </div>
+=======
+>>>>>>> 66b5eee083da4081153b5583998d760e4e37760c
       </Fragment>
     );
   }
