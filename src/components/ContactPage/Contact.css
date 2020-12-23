@@ -1,0 +1,142 @@
+.contactPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  height: 1200px;
+  color: rgb(107, 57, 34);
+}
+.contactUs {
+  margin-bottom: 30px;
+}
+.contactPageChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: 1150px;
+  /* border: solid 2px red; */
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgb(247, 216, 203), rgb(255, 255, 255));
+  box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(245, 235, 231),
+    3px 3px 3px rgb(245, 235, 231);
+  /* margin: auto; */
+  /* background: linear-gradient(rgb(247, 216, 203) 50%, rgb(255, 255, 255) 50%); */
+}
+.contactFooter {
+  text-align: center;
+  width: 500px;
+  margin: 15px 0 0 0;
+}
+
+.contactPageFormParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+
+  border-radius: 10px;
+  background: white;
+  padding: 0 30px;
+
+  box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(245, 235, 231),
+    3px 3px 3px rgb(245, 235, 231);
+  height: 500px;
+  width: 1040px;
+
+  /* margin-top: 10px; */
+}
+.contactPageForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 50px;
+  padding-top: 60px;
+
+  /* border-radius: 10px 100px / 120px; */
+}
+.map iframe {
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.contactPageEmail,
+.contactPageName {
+  width: 400px;
+  border-bottom: rgb(243, 111, 64) solid 1px;
+
+  margin: 0 0 40px 10px;
+}
+.contactPageEmail input,
+.contactPageName input {
+  outline: none;
+  width: 250px;
+  border: none;
+  color: rgb(221, 93, 46);
+  height: 17px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.contactPageMessage {
+  width: 400px;
+  border-bottom: rgb(243, 111, 64) solid 1px;
+
+  margin: 40px 0 0 10px;
+  color: rgb(221, 93, 46);
+}
+.contactPageMessage input {
+  outline: none;
+
+  width: 250px;
+  border: none;
+  color: rgb(221, 93, 46);
+  height: 17px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+.contactPageButton {
+  padding: 5px;
+  border: rgb(250, 84, 7) solid 1px;
+  text-decoration: none;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(250, 84, 7);
+  -webkit-animation-direction: 0.6s;
+  transition-duration: 0.6s;
+  margin: 60px 290px 0 0;
+  background: rgb(223, 75, 6);
+  color: white;
+  border: solid 1px rgb(236, 155, 117);
+}
+.contactPageButton:hover {
+  color: rgb(158, 80, 44);
+  background: white;
+
+  border-radius: 10px 100px / 120px;
+}
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin-bottom: 20px;
+  color: rgb(94, 44, 3);
+  font-size: 22px;
+  /* border: solid 3px red; */
+}
+.contactPageFooter {
+  display: flex;
+  color: rgb(94, 44, 3);
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 700px;
+  margin-top: 15px;
+}

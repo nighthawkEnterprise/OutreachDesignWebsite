@@ -1,10 +1,11 @@
 import React, { Component, Fragment } from "react";
+import "./Home.css";
 class Home extends Component {
   render() {
     return (
       <Fragment>
         {" "}
-        <div className="frontPage" id="home">
+        <div className="frontPage">
           <div className="frontPageTitle">
             <h1>Where Work Happens</h1>
             <p>
@@ -17,7 +18,7 @@ class Home extends Component {
               experience building applications and solving web problems, in turn
               leaving many businesses happy. Let chat about your website ideas
               and work together to achieve your goals. Get 30% whooper discount!
-            </p>{" "}
+            </p>
             <a href="#" className="getStarted">
               Get started
             </a>
@@ -39,13 +40,16 @@ class Home extends Component {
             <h2>icon</h2>
           </a>
           <a href="" className="btn btn-2">
-            <i className="fa fa-chevron-up"></i>
+            {/* <i className="fa fa-chevron-up"></i> */}
+            <h2>abt</h2>
           </a>
           <a href="" className="btn btn-3">
-            <i className="fa fa-music"></i>
+            {/* <i className="fa fa-music"></i> */}
+            <h2>blg</h2>
           </a>
           <a href="" className="btn btn-4">
-            <i className="fa fa-globe"></i>
+            {/* <i className="fa fa-globe"></i> */}
+            <h2>cnt</h2>
           </a>
           <a href="" className="btn btn-5">
             {/* <i className="fa fa-leaf"></i> */}
