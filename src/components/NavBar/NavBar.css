@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+}
+/* https://codepen.io/search/pens?q=buttons&cursor=ZD0xJm89MCZwPTY= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  /* border-bottom: solid 2px rgb(250, 84, 7); */
+  box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(245, 235, 231),
+    3px 3px 3px rgb(245, 235, 231);
+  background: white;
+}
+.navContentsFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContent {
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 6px;
+  color: rgb(250, 84, 7);
+  padding: 9px;
+}
+.navContent:hover {
+  border-bottom: solid 1px rgb(250, 84, 7);
+  padding: 9px;
+}
+
+.outreachLogo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 260px;
+  margin-left: 40px;
+}
+.logoText {
+  font-size: 28px;
+  color: rgb(250, 84, 7);
+  font-weight: inherit;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: rgb(250, 84, 7) solid 1px;
+  margin: 0 25px;
+  padding: 9px;
+  font-size: 16px;
+}
+
+.searchForm a {
+  color: rgb(250, 84, 7);
+  font-size: 16px;
+
+  outline: none;
+  text-decoration: none;
+  font-weight: lighter;
+}
+#search {
+  outline: none;
+  width: 240px;
+  border: none;
+  margin-left: 5px;
+  font-size: 16px;
+  height: 17px;
+}
+.signin {
+  padding: 6px;
+  border: rgb(250, 84, 7) solid 1px;
+  text-decoration: none;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(250, 84, 7);
+
+  -webkit-animation-direction: 0.4s;
+  transition-duration: 0.4s;
+}
+.signin:hover {
+  background: rgb(158, 80, 44);
+  color: white;
+  /* border: solid 3px rgb(158, 80, 44); */
+  border: solid 1px rgb(250, 84, 7);
+  border-radius: 10px 100px / 120px;
+}
+.getStarted {
+  text-decoration: none;
+  padding: 6px;
+
+  color: white;
+  border-radius: 2px;
+  order: none;
+  background: rgb(54, 92, 163);
+  font-size: 15px;
+  -webkit-animation-direction: 0.3s;
+  transition-duration: 0.3s;
+}
+.getStarted:hover {
+  text-decoration: none;
+
+  background: white;
+  color: rgb(54, 92, 163);
+  border: solid 1px rgb(54, 92, 163);
+  /* font-size: 12px; */
+  border-radius: 10px 100px / 120px;
+}
+.signingButtens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 155px;
+  margin: 0 50px 0 10px;
+}

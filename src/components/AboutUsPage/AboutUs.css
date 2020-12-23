@@ -1,0 +1,97 @@
+.AboutUs {
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color: rgb(107, 57, 34);
+  background: linear-gradient(10deg, white 10%, rgb(255, 250, 247) 90%);
+  /* margin-top: 100px; */
+}
+
+.cardsPageParent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px black; */
+}
+.cardsPage {
+  height: 1140px;
+  /* border: solid 1px black; */
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: solid red 2px; */
+}
+
+.card {
+  display: flex;
+  height: 320px;
+
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-animation-direction: 0.6s;
+  transition-duration: 0.6s;
+  border-radius: 10px 100px / 120px;
+  text-decoration: none;
+  padding-bottom: 10px;
+
+  /* -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform; */
+
+  text-align: center;
+  box-shadow: -3px -3px rgb(240, 237, 236), 2px 2px 2px rgb(161, 87, 49),
+    3px 3px 3px rgb(155, 81, 47);
+  /* box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(161, 87, 49),
+    1px 1px 1px rgb(155, 81, 47); */
+
+  background: linear-gradient(34deg, rgb(247, 216, 203) 50%, white 50%);
+}
+.card:hover,
+.card:focus,
+.card:active {
+  /* height: 320px;
+  width: 560px; */
+
+  box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(161, 87, 49),
+    1px 1px 1px rgb(155, 81, 47);
+  /* box-shadow: -3px -3px rgb(240, 237, 236), 5px 5px 5px rgb(161, 87, 49),
+    5px 5px 5px rgb(155, 81, 47); */
+
+  background: linear-gradient(10deg, white 10%, rgb(247, 216, 203) 90%);
+  -webkit-transition: scale(1.1);
+  transform: scale(1.1);
+}
+.cardParent {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 1px red; */
+
+  text-align: center;
+}
+.card p {
+  font-size: 16px;
+  height: 220px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+  color: rgb(39, 78, 78);
+}
+.card p h2 {
+  /* font-size: 50px; */
+  margin-bottom: 25px;
+  text-decoration: none;
+  color: rgb(190, 100, 58);
+}
