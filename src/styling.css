@@ -203,19 +203,12 @@
 }
 
 .frontPageTitle p {
-<<<<<<< HEAD
-  font-size: 15px;
-=======
   font-size: 17px;
->>>>>>> 66b5eee083da4081153b5583998d760e4e37760c
   margin: 20px 0 20px;
   width: 500px;
   text-align: justify;
   line-height: 28px;
-<<<<<<< HEAD
-=======
   font-family: "Texturina", serif;
->>>>>>> 66b5eee083da4081153b5583998d760e4e37760c
 }
 .frontPageTitle {
   width: 400px;
