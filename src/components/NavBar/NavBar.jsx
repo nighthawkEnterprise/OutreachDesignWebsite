@@ -44,6 +44,16 @@ export class NavBar extends Component {
               >
                 Resources
               </Link>
+              <Link
+                className="navContent"
+                activeClass="active"
+                to="grid_contain_parent"
+                spy={true}
+                smooth={true}
+                duration={200}
+              >
+                Meet Us
+              </Link>
 
               <Link
                 className="navContent"

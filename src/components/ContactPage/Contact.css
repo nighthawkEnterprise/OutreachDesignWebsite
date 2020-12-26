@@ -7,8 +7,17 @@
   height: 1200px;
   color: rgb(107, 57, 34);
 }
+
 .contactUs {
-  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  background: rgb(158, 80, 44);
+  color: white;
+  font-size: 20px;
+  margin-bottom: 140px;
 }
 .contactPageChild {
   display: flex;
