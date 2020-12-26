@@ -105,6 +105,7 @@
   border-radius: 2px;
   order: none;
   background: rgb(54, 92, 163);
+  background: rgb(69, 69, 216);
   font-size: 15px;
   -webkit-animation-direction: 0.3s;
   transition-duration: 0.3s;
@@ -113,8 +114,8 @@
   text-decoration: none;
 
   background: white;
-  color: rgb(54, 92, 163);
-  border: solid 1px rgb(54, 92, 163);
+  color: rgb(69, 69, 216);
+  border: solid 1px rgb(69, 69, 216);
   /* font-size: 12px; */
   border-radius: 10px 100px / 120px;
 }
