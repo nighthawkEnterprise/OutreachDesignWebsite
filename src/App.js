@@ -1,30 +1,18 @@
-import "./styling.css";
+import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/HomePage/Home";
-import ContactPage from "./components/ContactPage/ContactPage";
+import AboutUs from "./components/AboutUsPage/AboutUs";
+import Blog from "./components/BlogPage/Blog";
+import Contact from "./components/ContactPage/Contact";
 import Footer from "./components/Footer/Footer";
-import Nav from "./components/NavComponents/Nav";
-import About from "./components/AboutUs/About";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Activities from "./components/NavComponents/Activities";
-import Resources from "./components/NavComponents/Resources";
-import Simpledesign from "./components/SimpleDesign/Simpledesign";
-import Meetteam from "./components/MeetTeam/Meetteam";
 
 function App() {
   return (
     <div>
-      <Router>
-        <Nav />
-        {/* <Route Path="/Activities" exact component = {Activities}/>
-        <Route Path="/Resurces" exact component = {Resources}/> */}
-      </Router>
-
+      <NavBar />
       <Home />
-      <Simpledesign />
-      <About />
-      <Meetteam />
-      <ContactPage />
-
+      <AboutUs />
+      <Contact />
+      <Blog />
       <Footer />
     </div>
   );

@@ -1,147 +1,106 @@
-@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Texturina:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Salsa&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Salsa&family=Solway:wght@300&display=swap");
-
-.grid_contain {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  height: auto;
-  margin: auto;
-}
-
 .footer {
   width: 100%;
-  background-color: rgb(5, 5, 97);
-  display: grid;
-  grid-template-rows: 3fr 0.1fr;
-  height: auto;
-  margin-top: -0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-direction: column;
+  /* border: solid 3px red; */
+  color: rgb(250, 84, 7);
+  height: 301px;
+  background: linear-gradient(10deg, white 10%, rgb(247, 216, 203) 90%);
+  background: rgb(158, 80, 44);
+  padding: 80px 150px 0 0;
 }
 
-.foottop {
+.footerContants {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 50px;
-  color: white;
+  align-items: center;
+  padding: 0 180px 0 0;
+  width: 100%;
+  padding: 0 150px;
+
+  /* border: solid 1px black; */
 }
 
-.foot_ready {
-  width: 300px;
-  height: 30vh;
+.footerContantsChild {
   display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 240px;
+  height: 120px;
+  padding: 0 10px;
+
+  margin: 0 60px;
+  /* border: solid 1px black; */
+  border-left: solid 1px rgb(250, 84, 7);
 }
-.foot_pro {
-  width: 200px;
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 10px;
+
+.footerLogo {
+  margin: 0 40px 50px 0;
+  /* border: solid 1px rgb(248, 194, 173); */
+}
+.outreachLogo {
+  width: 270px;
+  /* border: solid 1px rgb(121, 110, 106); */
+}
+.footerColor1 {
+  background: rgb(248, 194, 173);
+  height: 25px;
+  width: 25px;
+  border-radius: 10px 100px / 120px;
+}
+.footerLogoText {
+  color: rgb(248, 194, 173);
+  font-size: 28px;
+  margin: 0 0 20px 3px;
+}
+.contacts {
+  /* border: solid 1px rgb(248, 194, 173); */
   font-size: 16px;
-  font-family: "Comfortaa", cursive;
-}
+  color: rgb(253, 175, 139);
 
-.foot_pro > p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 30px;
-  font-size: 12px;
+  margin: 10px 0;
+  /* width: 100%; */
 }
-
-.foot_res {
+.contacts a {
+  color: rgb(253, 175, 139);
+  text-decoration: none;
+}
+.contacts a:hover {
+  color: rgb(247, 116, 55);
+}
+.contactsParent {
+  /* border: solid 1px rgb(248, 194, 173); */
+  margin-bottom: 30px;
   width: 200px;
-  height: 30vh;
+}
+.contactText {
   display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 10px;
-  font-size: 16px;
-  font-family: "Comfortaa", cursive;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.foot_res > p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 30px;
-  font-size: 12px;
-}
-
-.foot_con {
-  width: 200px;
-  height: 30vh;
+.footerIcons {
   display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 10px;
-  font-size: 16px;
-  font-family: "Comfortaa", cursive;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footerIcons a {
+  font-size: 25px;
+  color: rgb(253, 175, 139);
+  margin: 15px 5px;
 }
 
-.foot_con > p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 30px;
-  font-size: 12px;
-}
-
-.foot_sup {
-  width: 200px;
-  height: 30vh;
+.llc {
   display: flex;
-  flex-direction: column;
-  margin: 20px;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
-  font-family: "Comfortaa", cursive;
-}
-
-.foot_sup > p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 30px;
-  font-size: 12px;
-}
-
-.foot_ready_to {
-  font-family: "Comfortaa", cursive;
-  font-size: 20px;
-}
-
-.foot_started {
-  font-family: "Comfortaa", cursive;
-  font-size: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.request {
-  width: 220px;
-  height: 50px;
-  background-color: green;
-  color: white;
-  padding: 10px;
-  padding-top: 15px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-bottom: 20px;
+  color: rgb(250, 84, 7);
+  background: rgb(252, 143, 93);
+  height: 35px;
+  width: 100%;
   text-align: center;
-}
-
-.foot_icon {
-  width: 140px;
-  height: 4vh;
-  background-image: url("../images/mediaicon.png");
-  background-repeat: no-repeat;
-  background-size: 140px;
-  background-color: snow;
-  margin-top: -50px;
-  margin-right: 70px;
-  float: right;
-  cursor: pointer;
-  border-radius: 5px;
+  color: white;
 }
