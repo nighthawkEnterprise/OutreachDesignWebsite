@@ -73,7 +73,9 @@
   width: 130px;
   height: 130px;
   margin-bottom: -60px;
+
   z-index: 1;
+
 
   border-radius: 30px;
   /* border-radius: 10px 100px / 120px; */
