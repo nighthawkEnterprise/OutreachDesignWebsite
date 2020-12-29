@@ -157,25 +157,26 @@ export class Blog extends Component {
                 <div className="buttonBox">
                   <i className="fa fa-github"></i>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    elit.
+                    {" "}
+                    Lorem ipsum dolor, asdg gasg amet consectetur adipisicing
                   </p>
                   <a href="">click</a>
                 </div>
+
                 <div className="buttonBox">
                   <i className="fa fa-github"></i>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    elit.
+                    {" "}
+                    Lorem ipsum dolor, asdg gasg amet consectetur adipisicing
                   </p>
                   <a href="">click</a>
                 </div>
+
                 <div className="buttonBox">
                   <i className="fa fa-github"></i>
-                  {/* <h2>title</h2> */}
+
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    elit.
+                    Lorem ipsum dolor, asdg gasg amet consectetur adipisicing
                   </p>
                   <a href="">click</a>
                 </div>

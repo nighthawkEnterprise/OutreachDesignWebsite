@@ -7,15 +7,24 @@
   height: 1200px;
   color: rgb(107, 57, 34);
 }
+
 .contactUs {
-  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  background: rgb(158, 80, 44);
+  color: white;
+  font-size: 20px;
+  margin-bottom: 140px;
 }
 .contactPageChild {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 600px;
+  height: auto;
   width: 1150px;
   /* border: solid 2px red; */
   padding: 20px;
@@ -37,14 +46,12 @@
   justify-content: space-between;
   align-items: center;
   align-content: center;
-
   border-radius: 10px;
   background: white;
   padding: 0 30px;
-
   box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(245, 235, 231),
     3px 3px 3px rgb(245, 235, 231);
-  height: 500px;
+  height: auto;
   width: 1040px;
 
   /* margin-top: 10px; */
@@ -69,9 +76,9 @@
 .contactPageName {
   width: 400px;
   border-bottom: rgb(243, 111, 64) solid 1px;
-
   margin: 0 0 40px 10px;
 }
+
 .contactPageEmail input,
 .contactPageName input {
   outline: none;
@@ -79,28 +86,30 @@
   border: none;
   color: rgb(221, 93, 46);
   height: 17px;
-  margin-left: 20px;
   font-size: 16px;
+  background-color: gainsboro;
+  padding: 20px;
+  width: 400px;
 }
+
 .contactPageMessage {
   width: 400px;
   border-bottom: rgb(243, 111, 64) solid 1px;
-
-  margin: 40px 0 0 10px;
   color: rgb(221, 93, 46);
 }
-.contactPageMessage input {
+.contactPageMessage textarea {
   outline: none;
-
-  width: 250px;
+  width: 400px;
   border: none;
   color: rgb(221, 93, 46);
-  height: 17px;
-  margin-left: 20px;
+  height: 130px;
   font-size: 16px;
+  background-color: gainsboro;
+  padding: 20px;
 }
+
 .contactPageButton {
-  padding: 5px;
+  padding: 8px;
   border: rgb(250, 84, 7) solid 1px;
   text-decoration: none;
   border-radius: 2px;
@@ -110,16 +119,22 @@
   color: rgb(250, 84, 7);
   -webkit-animation-direction: 0.6s;
   transition-duration: 0.6s;
-  margin: 60px 290px 0 0;
+  margin: 30px 290px 30px 0;
   background: rgb(223, 75, 6);
   color: white;
-  border: solid 1px rgb(236, 155, 117);
+  border: solid 1px none;
+  border-radius: 5px;
 }
 .contactPageButton:hover {
   color: rgb(158, 80, 44);
-  background: white;
-
+  background: green;
+  color: white;
+  border: none;
   border-radius: 10px 100px / 120px;
+}
+
+.contactPageButton:focus {
+  outline: none;
 }
 .contactInfo {
   display: flex;
@@ -129,8 +144,8 @@
   margin-bottom: 20px;
   color: rgb(94, 44, 3);
   font-size: 22px;
-  /* border: solid 3px red; */
 }
+
 .contactPageFooter {
   display: flex;
   color: rgb(94, 44, 3);
@@ -139,4 +154,9 @@
   align-items: center;
   width: 700px;
   margin-top: 15px;
+  line-height: 25px;
+}
+
+span {
+  padding-left: 50px;
 }
