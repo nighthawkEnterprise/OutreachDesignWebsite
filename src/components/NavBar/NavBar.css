@@ -36,6 +36,7 @@
 .navContent:hover {
   border-bottom: solid 1px rgb(250, 84, 7);
   padding: 9px;
+  cursor: pointer;
 }
 
 .outreachLogo {

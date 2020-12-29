@@ -35,27 +35,7 @@ class Home extends Component {
             <br />
           </div>
         </div>
-        <div class="container">
-          <a href="" className="btn btn-1">
-            <h2>icon</h2>
-          </a>
-          <a href="" className="btn btn-2">
-            {/* <i className="fa fa-chevron-up"></i> */}
-            <h2>abt</h2>
-          </a>
-          <a href="" className="btn btn-3">
-            {/* <i className="fa fa-music"></i> */}
-            <h2>blg</h2>
-          </a>
-          <a href="" className="btn btn-4">
-            {/* <i className="fa fa-globe"></i> */}
-            <h2>cnt</h2>
-          </a>
-          <a href="" className="btn btn-5">
-            {/* <i className="fa fa-leaf"></i> */}
-            <h2>info</h2>
-          </a>
-        </div>
+      
       </Fragment>
     );
   }

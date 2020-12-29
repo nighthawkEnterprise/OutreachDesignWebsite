@@ -1,10 +1,15 @@
-import React, { Component } from "react";
+
 import { Link } from "react-scroll";
+
+
 import "./NavBar.css";
 
-export class NavBar extends Component {
-  render() {
-    return (
+function NavBar(props) {
+  const activities = ["Workshop","Freelangitlsce"]
+  const Project = ["React", "React Native"]
+  const resources = ["Blog", "Templet"]
+
+      return (
       <div>
         <nav className="navbar">
           <div className="outreachLogo">
@@ -24,16 +29,14 @@ export class NavBar extends Component {
               >
                 Home
               </Link>
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="#"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Activities
+              <Link 
+               className="navContent"
+               activeClass="active" to="activities">
+
+              Activities  
+              {/* <Dropdown  actItem={activities}/> */}
               </Link>
+
               <Link
                 className="navContent"
                 activeClass="active"
@@ -43,16 +46,6 @@ export class NavBar extends Component {
                 duration={200}
               >
                 Resources
-              </Link>
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="grid_contain_parent"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Meet Us
               </Link>
 
               <Link
@@ -68,14 +61,13 @@ export class NavBar extends Component {
               <Link
                 className="navContent"
                 activeClass="active"
-                to="contactPage"
+                to="AboutUs"
                 spy={true}
                 smooth={true}
                 duration={200}
               >
-                Contact
+                Project
               </Link>
-
               <Link
                 className="navContent"
                 activeClass="active"
@@ -86,6 +78,18 @@ export class NavBar extends Component {
               >
                 About
               </Link>
+              <Link
+                className="navContent"
+                activeClass="active"
+                to="contactPage"
+                spy={true}
+                smooth={true}
+                duration={200}
+              >
+                Contact
+              </Link>
+      
+
             </div>
             <div className="searchForm">
               <a href="" className="fa fa-search"></a>
@@ -112,6 +116,5 @@ export class NavBar extends Component {
       </div>
     );
   }
-}
 
 export default NavBar;
