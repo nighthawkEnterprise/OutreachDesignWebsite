@@ -14,7 +14,9 @@ function Meetteam() {
               <img src="../img/person.PNG" className="team_photo" />
             </div>
             <div className="team_bio_parent">
-              <div className="empty">ś222222ww</div>
+
+              <div className="empty"></div>
+
               <h2 className="team_name">Nithin</h2>
               <div className="team_bio">
                 <p>
