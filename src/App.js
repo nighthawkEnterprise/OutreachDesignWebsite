@@ -9,13 +9,16 @@ import Footer from "./components/Footer/Footer";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Icon from './components/Icons/Icon';
 import Info from "./components/Icons/Info";
+import SigninRegister from "./components/Forms/Form";
 
 
 function App() {
   return (
     <Router>
        <NavBar/>
+      
         <Home/>
+        <SigninRegister/>
         <Icon/>
         <AboutUs />
         <SimpleDesign/>
