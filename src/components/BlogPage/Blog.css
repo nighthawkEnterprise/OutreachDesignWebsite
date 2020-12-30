@@ -3,9 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 140px;
+  margin-top: 80px;
   flex-direction: column;
-  height: 1900px;
+  height: 2200px;
   width: 100%;
 
   /* border: solid 10px red; */
@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
 
-  /* margin-bottom: 60px; */
+  margin-top: 60px;
   /* border: solid 10px red; */
 }
 

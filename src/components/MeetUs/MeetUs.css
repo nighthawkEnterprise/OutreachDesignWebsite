@@ -3,13 +3,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Salsa&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cantora+One&family=Salsa&family=Solway:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
 
+  box-sizing: border-box;
+}
 .grid_contain_parent {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
   height: 1200px;
-  /* border: solid 1px red; */
+  margin-top: 200px;
+  border: solid 1px red;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .grid_contain {
