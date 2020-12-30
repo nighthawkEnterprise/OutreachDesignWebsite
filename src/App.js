@@ -6,6 +6,7 @@ import AboutUs from "./components/AboutUsPage/AboutUs";
 import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
 import Footer from "./components/Footer/Footer";
+import PortfolioPage from "./components/Portfolio/PortfolioPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <AboutUs />
       <SimpleDesign />
+      <PortfolioPage />
       <Blog />
       <MeetUs />
       <Contact />

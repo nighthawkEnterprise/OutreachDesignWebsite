@@ -1,0 +1,12 @@
+.caro_card {
+  width: 600px;
+  height: 80vh;
+  background-color: green;
+  color: white;
+  font-size: 30px;
+}
+
+.caro_contain {
+  width: 700px;
+  background-color: none;
+}
