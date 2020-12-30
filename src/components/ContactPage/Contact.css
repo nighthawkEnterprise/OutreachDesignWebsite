@@ -107,6 +107,11 @@
   background-color: gainsboro;
   padding: 20px;
 }
+.buttonParent {
+  width: 100%;
+  height: 14px;
+  border: solid 1px none;
+}
 
 .contactPageButton {
   padding: 8px;
@@ -129,7 +134,7 @@
   color: rgb(158, 80, 44);
   background: green;
   color: white;
-  border: none;
+
   border-radius: 10px 100px / 120px;
 }
 

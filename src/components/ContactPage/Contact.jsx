@@ -9,10 +9,10 @@ function contactPage() {
 
     emailjs
       .sendForm(
-        "service_233gru9",
-        "template_7w1gf9s",
+        "service_rtx7yyv",
+        "template_9llovqi",
         e.target,
-        "user_E2UQdwhXw6MQZE5rgrgDS"
+        "user_4muNk615K0stkPXzPjStU"
       )
       .then(
         (result) => {
@@ -68,11 +68,13 @@ function contactPage() {
             <div className="contactPageMessage">
               <textarea placeholder="Enter text here" name="message" required />
             </div>
+            {/* <div className="buttonParent"> */}
             <input
               className="contactPageButton"
               Value="Send Message"
               type="submit"
             />
+            {/* </div> */}
           </form>
 
           <div className="map">
