@@ -1,5 +1,9 @@
 import React, { Component, Fragment } from "react";
 import "./Home.css";
+import SimpleDesign from "../SimpleDesign/SimpleDesign";
+import Footer from "..//Footer/Footer";
+import AboutUs from "../AboutUsPage/AboutUs";
+import { Link } from "react-scroll";
 class Home extends Component {
   render() {
     return (
@@ -39,9 +43,17 @@ class Home extends Component {
           <a href="" className="btn btn-1">
             <h2>icon</h2>
           </a>
-          <a href="" className="btn btn-2">
-            {/* <i className="fa fa-chevron-up"></i> */}
-            <h2>abt</h2>
+          <a>
+            <Link
+              activeClass="active"
+              to="AboutUs"
+              spy={true}
+              smooth={true}
+              duration={200}
+              className="btn btn-2"
+            >
+              <h2>abt</h2>
+            </Link>
           </a>
           <a href="" className="btn btn-3">
             {/* <i className="fa fa-music"></i> */}
@@ -56,6 +68,24 @@ class Home extends Component {
             <h2>info</h2>
           </a>
         </div>
+        <SimpleDesign />
+        <AboutUs />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Footer />
       </Fragment>
     );
   }

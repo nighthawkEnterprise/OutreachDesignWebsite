@@ -1,5 +1,6 @@
 import React from "react";
 import "./MeetUs.css";
+import Footer from "../Footer/Footer";
 
 function Meetteam() {
   return (
@@ -83,6 +84,16 @@ function Meetteam() {
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Footer />
     </div>
   );
 }
