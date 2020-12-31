@@ -4,12 +4,13 @@ import { Link } from "react-scroll";
 
 import "./NavBar.css";
 
-function NavBar(props) {
-  const activities = ["Workshop","Freelangitlsce"]
-  const Project = ["React", "React Native"]
-  const resources = ["Blog", "Templet"]
+import MeetUs from "../MeetUs/MeetUs";
+import Blog from "../BlogPage/Blog";
+import Contact from "../ContactPage/Contact";
 
-      return (
+export class NavBar extends Component {
+  render() {
+    return (
       <div>
         <nav className="navbar">
           <div className="outreachLogo">
@@ -19,77 +20,75 @@ function NavBar(props) {
 
           <div className="navContentsFlex">
             <div className="navContents">
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="frontPage"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Home
-              </Link>
-              <Link 
-               className="navContent"
-               activeClass="active" to="activities">
+              <a className="navContent" href="/">
+                <span className="underLine">Home</span>
+              </a>
 
-              Activities  
-              {/* <Dropdown  actItem={activities}/> */}
-              </Link>
+              {/* ----------------------------------------- */}
+              {/* npm install --save react-router */}
+              {/* ------------------------------------------------ */}
+              <div className="dropDownParent">
+                <button className="dropDown">
+                  <span className="underLine">Activities </span>
+                  <span>
+                    <i
+                      id="downArrow"
+                      className="fa fa-angle-down"
+                      aria-hidden="true"
+                    ></i>
+                  </span>{" "}
+                </button>
 
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="#"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Resources
-              </Link>
+                <ul>
+                  <a href="/Contact">
+                    <li>Contact</li>
+                  </a>
 
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="blogPageTitle"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Blog
-              </Link>
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="AboutUs"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Project
-              </Link>
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="AboutUs"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                About
-              </Link>
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="contactPage"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Contact
-              </Link>
-      
+                  <a href="/MeetUs">
+                    <li>MeetUs</li>
+                  </a>
 
+                  <a href="/Blog">
+                    <li>Blog</li>
+                  </a>
+                </ul>
+              </div>
+              {/* -------------------------------------- */}
+
+              <a className="navContent" href="/">
+                <span className="underLine">Portfolio</span>
+              </a>
+
+              <div className="dropDownParent">
+                <button className="dropDown">
+                  <span className="underLine">Resources</span>
+                  <span>
+                    {" "}
+                    <i
+                      id="downArrow"
+                      className="fa fa-angle-down"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                </button>
+
+                <ul>
+                  <li>
+                    <a href="/Contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="/MeetUs">MeetUs</a>
+                  </li>
+
+                  <li>
+                    <a href="/Blog">Blog</a>
+                  </li>
+                </ul>
+              </div>
+
+              <a className="navContent" href="/">
+                <span className="underLine">About</span>
+              </a>
             </div>
             <div className="searchForm">
               <a href="" className="fa fa-search"></a>

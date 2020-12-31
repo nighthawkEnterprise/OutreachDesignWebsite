@@ -12,6 +12,7 @@ function SigninRegister(){
             </div>
          <div className="form-group">
              <Signin/>
+             <SignUp />
             {/* <form action = " " id ="loginform">login</form>
              <form action = " " id ="registerform">register</form> */}
         </div>

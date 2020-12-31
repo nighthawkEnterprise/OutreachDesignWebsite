@@ -88,15 +88,9 @@ function contactPage() {
             ></iframe>
           </div>
         </div>
-        <div className="contactPageFooter">
-          <p>
-            All messages sent will be responded to within 24hrs except Sat. &
-            Sun. <br />
-            Our business hours are Mon. - Fri. 8am - 5pm.
-          </p>
-        </div>
+ 
+       </div>
       </div>
-    </div>
   );
 }
 

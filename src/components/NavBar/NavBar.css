@@ -16,27 +16,109 @@
   z-index: 9;
   width: 100%;
   /* border-bottom: solid 2px rgb(250, 84, 7); */
-  box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(245, 235, 231),
-    3px 3px 3px rgb(245, 235, 231);
+  /* box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(245, 235, 231),
+    3px 3px 3px rgb(245, 235, 231); */
   background: white;
 }
 .navContentsFlex {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
+}
+.navContents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: solid red 1px; */
+  height: 100%;
 }
 
 .navContent {
   text-decoration: none;
   font-size: 16px;
-  margin: 0 6px;
+  /* margin: 0 8px; */
   color: rgb(250, 84, 7);
   padding: 9px;
 }
 .navContent:hover {
-  border-bottom: solid 1px rgb(250, 84, 7);
+  /* border-bottom: solid 1px rgb(250, 84, 7); */
+  padding: 8px 9px;
+  margin-top: 1px;
+}
+
+.dropDownParent {
+  /* margin: 0 8px; */
+  /* border: solid red 1px; */
+  margin-top: 172px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 140px;
+  /* height: 130px; */
+  /* padding: 30px 0; */
+  /* text-align: left; */
+}
+.dropDownParent ul {
+  border: solid rgb(255, 72, 0) 3px;
+  background: rgb(255, 255, 254);
+  border-radius: 5px;
+  width: 100%;
+  /* pointer-events: none; */
+
+  opacity: 0;
+
+  transform: translateY(-30px);
+  transition: all 0.5s ease;
+
+  margin: 10px 0 0 10px;
+}
+
+.dropDownParent button:focus + ul {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px);
+  cursor: pointer;
+  /* background: khaki; */
+}
+
+.dropDown {
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: rgb(250, 84, 7);
   padding: 9px;
   cursor: pointer;
+  border: none;
+  background: white;
+  width: 100%;
+  cursor: pointer;
+}
+.underLine:hover {
+  padding: 9px 0;
+  border-bottom: solid 1px rgb(250, 84, 7);
+}
+button:focus {
+  outline: none;
+}
+
+.dropDownParent ul a {
+  text-decoration: none;
+  color: rgb(255, 89, 11);
+  /* pointer-events: all; */
+  cursor: default;
+}
+.dropDownParent ul li:hover {
+  /* border-bottom: solid 1px rgb(250, 84, 7); */
+  background: rgb(255, 227, 214);
+}
+.dropDownParent ul li {
+  width: 100%;
+  /* width: 150px; */
+  /* border: solid red 1px; */
+  padding: 15px 0 15px 15px;
+  list-style: none;
 }
 
 .outreachLogo {
@@ -79,7 +161,7 @@
   height: 17px;
 }
 .signin {
-  padding: 6px;
+  padding: 8px;
   border: rgb(250, 84, 7) solid 1px;
   text-decoration: none;
   border-radius: 2px;
@@ -100,13 +182,13 @@
 }
 .getStarted {
   text-decoration: none;
-  padding: 6px;
+  padding: 8px;
 
   color: white;
   border-radius: 2px;
   order: none;
   background: rgb(54, 92, 163);
-  background: rgb(69, 69, 216);
+  background: rgb(3, 81, 248);
   font-size: 15px;
   -webkit-animation-direction: 0.3s;
   transition-duration: 0.3s;
@@ -114,16 +196,16 @@
 .getStarted:hover {
   text-decoration: none;
 
-  background: white;
-  color: rgb(69, 69, 216);
-  border: solid 1px rgb(69, 69, 216);
-  /* font-size: 12px; */
+  background: rgb(173, 173, 173);
+  color: rgb(255, 255, 255);
+  /* border: solid 1px rgb(69, 69, 216); */
+
   border-radius: 10px 100px / 120px;
 }
 .signingButtens {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 155px;
+  width: 170px;
   margin: 0 50px 0 10px;
 }
