@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Blog.css";
+import Footer from "../Footer/Footer";
 
 export class Blog extends Component {
   render() {
@@ -184,6 +185,7 @@ export class Blog extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

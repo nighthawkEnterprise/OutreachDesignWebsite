@@ -2,6 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
 import Swal from "sweetalert2";
+import Footer from "../Footer/Footer";
 
 function contactPage() {
   function sendEmail(e) {
@@ -90,14 +91,14 @@ function contactPage() {
             ></iframe>
           </div>
         </div>
-        <div className="contactPageFooter">
-          <p>
-            All messages sent will be responded to within 24hrs except Sat. &
-            Sun. <br />
-            Our business hours are Mon. - Fri. 8am - 5pm.
-          </p>
-        </div>
+        <br />
+        <p>
+          All messages sent will be responded to within 24hrs except Sat. & Sun.{" "}
+          <br />
+          Our business hours are Mon. - Fri. 8am - 5pm.
+        </p>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 .contactPage {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
   flex-direction: column;
-  height: 1200px;
+  height: 1800px;
   color: rgb(107, 57, 34);
 }
 
@@ -17,7 +17,7 @@
   background: rgb(158, 80, 44);
   color: white;
   font-size: 20px;
-  margin-bottom: 140px;
+  margin: 140px 0;
 }
 .contactPageChild {
   display: flex;
@@ -25,6 +25,7 @@
   align-items: center;
   flex-direction: column;
   height: auto;
+  text-align: center;
   width: 1150px;
   /* border: solid 2px red; */
   padding: 20px;
@@ -130,6 +131,7 @@
   border: solid 1px none;
   border-radius: 5px;
 }
+
 .contactPageButton:hover {
   color: rgb(158, 80, 44);
   background: green;
@@ -162,6 +164,6 @@
   line-height: 25px;
 }
 
-span {
+/* span {
   padding-left: 50px;
-}
+} */
