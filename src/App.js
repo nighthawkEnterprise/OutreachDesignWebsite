@@ -6,6 +6,10 @@ import AboutUs from "./components/AboutUsPage/AboutUs";
 import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
 import Footer from "./components/Footer/Footer";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 236f001ab141a55486bd8001b9f7f0bb8863522f
 import { Link } from "react-scroll";
 import "./components/NavBar//NavBar.css";
 

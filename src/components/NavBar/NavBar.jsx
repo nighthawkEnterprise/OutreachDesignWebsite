@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-scroll";
-import "./NavBar.css";
 
-import MeetUs from "../MeetUs/MeetUs";
-import Blog from "../BlogPage/Blog";
-import Contact from "../ContactPage/Contact";
+import "./NavBar.css";
 
 export class NavBar extends Component {
   render() {
@@ -22,12 +18,9 @@ export class NavBar extends Component {
                 <span className="underLine">Home</span>
               </a>
 
-              {/* ----------------------------------------- */}
-              {/* npm install --save react-router */}
-              {/* ------------------------------------------------ */}
               <div className="dropDownParent">
                 <button className="dropDown">
-                  <span className="underLine">Activities </span>
+                  <span className="underLine">Activities</span>
                   <span>
                     <i
                       id="downArrow"

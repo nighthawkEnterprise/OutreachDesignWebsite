@@ -25,6 +25,7 @@
   align-items: center;
   flex-direction: column;
   height: auto;
+  text-align: center;
   width: 1150px;
   /* border: solid 2px red; */
   padding: 20px;
@@ -107,6 +108,11 @@
   background-color: gainsboro;
   padding: 20px;
 }
+.buttonParent {
+  width: 100%;
+  height: 14px;
+  border: solid 1px none;
+}
 
 .contactPageButton {
   padding: 8px;
@@ -125,11 +131,12 @@
   border: solid 1px none;
   border-radius: 5px;
 }
+
 .contactPageButton:hover {
   color: rgb(158, 80, 44);
   background: green;
   color: white;
-  border: none;
+
   border-radius: 10px 100px / 120px;
 }
 
@@ -157,6 +164,6 @@
   line-height: 25px;
 }
 
-span {
+/* span {
   padding-left: 50px;
-}
+} */
