@@ -6,7 +6,7 @@ import AboutUs from "./components/AboutUsPage/AboutUs";
 import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
 import Footer from "./components/Footer/Footer";
-import AnimatedNavbar from "./components/animateNavbar/animatedNavbar";
+
 import { Link } from "react-scroll";
 import "./components/NavBar//NavBar.css";
 

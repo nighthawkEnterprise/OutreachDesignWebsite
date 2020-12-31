@@ -2,6 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
 import Swal from "sweetalert2";
+import Footer from "../Footer/Footer";
 
 function contactPage() {
   function sendEmail(e) {
@@ -9,10 +10,10 @@ function contactPage() {
 
     emailjs
       .sendForm(
-        "service_233gru9",
-        "template_7w1gf9s",
+        "service_rtx7yyv",
+        "template_9llovqi",
         e.target,
-        "user_E2UQdwhXw6MQZE5rgrgDS"
+        "user_4muNk615K0stkPXzPjStU"
       )
       .then(
         (result) => {
@@ -68,11 +69,13 @@ function contactPage() {
             <div className="contactPageMessage">
               <textarea placeholder="Enter text here" name="message" required />
             </div>
+            {/* <div className="buttonParent"> */}
             <input
               className="contactPageButton"
               Value="Send Message"
               type="submit"
             />
+            {/* </div> */}
           </form>
 
           <div className="map">
@@ -88,115 +91,14 @@ function contactPage() {
             ></iframe>
           </div>
         </div>
- 
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        {/* ------------------------------------------------------------------ */}
-        <div>
-          <div className="footer">
-            <div className="footerContants">
-              <div className="footerLogo">
-                <div className="outreachLogo">
-                  <div className="logoColors">
-                    <div className="topColors">
-                      <div className="footerColor1"></div>
-                      <div className="footerColor1"></div>
-                    </div>
-                    <div className="bottomColors">
-                      <div className="footerColor1"></div>
-                      <div className="footerColor1"></div>
-                    </div>
-                    <br />
-                  </div>
-                  <div className="footerLogoText">Outreach Design</div>
-                </div>
-              </div>
-
-              <div className="footerContantsChild">
-                <div className="contactsParent">
-                  <div className="contacts">
-                    <div className="contactsText">
-                      <a href="">Career</a>
-                    </div>
-                  </div>
-                  <div className="contacts">
-                    <a href="">Contact Us</a>{" "}
-                  </div>
-                  <div className="contacts">
-                    <a href="">Media Center</a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="footerContantsChild">
-                <div className="contactsParent">
-                  <div className="contacts">
-                    <a href="">About Us</a>{" "}
-                  </div>
-                  <div className="contacts">
-                    <a href="">Site Map</a>{" "}
-                  </div>
-                  <div className="contacts">
-                    <a href="">FAQ</a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="footerContantsChild">
-                <div>
-                  <div className="contactsParent">
-                    <div className="contacts">Follow Us</div>
-
-                    <div className="contacts">
-                      {" "}
-                      <div className="footerIcons">
-                        <a href="#">
-                          <i className="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="#">
-                          <i className="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="#">
-                          <i className="fa fa-github" aria-hidden="true"></i>
-                        </a>
-
-                        <a href="#">
-                          <i
-                            className="fa fa-youtube-play"
-                            aria-hidden="true"
-                          ></i>
-                        </a>
-                        <a href="#">
-                          <i className="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="llc">
-            Copyright © 2020-2021 Outreach Design, LLC. All rights reserved.
-          </div>
-        <div className="contactPageFooter">
-          <p>
-            All messages sent will be responded to within 24hrs except Sat. &
-            Sun. <br />
-            Our business hours are Mon. - Fri. 8am - 5pm.
-          </p>
-        </div>
+        <p>
+          All messages sent will be responded to within 24hrs except Sat. & Sun.{" "}
+          <br />
+          Our business hours are Mon. - Fri. 8am - 5pm.
+        </p>
       </div>
+      <Footer />
     </div>
   );
 }
