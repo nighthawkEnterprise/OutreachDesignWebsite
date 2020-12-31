@@ -10,12 +10,7 @@
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-<<<<<<< HEAD
-    "react-elastic-carousel": "^0.10.0",
-    "react-responsive-carousel": "^3.2.11",
-=======
     "react-router": "^5.2.0",
->>>>>>> 620c487e7b0cda5fd4be8b66d9a7891d3d3c50cf
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",

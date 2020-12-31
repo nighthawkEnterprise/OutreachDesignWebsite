@@ -6,24 +6,6 @@ import AboutUs from "./components/AboutUsPage/AboutUs";
 import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
 import Footer from "./components/Footer/Footer";
-<<<<<<< HEAD
-import PortfolioPage from "./components/Portfolio/PortfolioPage";
-
-function App() {
-  return (
-    <div>
-      <NavBar />
-      <Home />
-      <AboutUs />
-      <SimpleDesign />
-      <PortfolioPage />
-      <Blog />
-      <MeetUs />
-      <Contact />
-      <Footer />
-    </div>
-=======
-import AnimatedNavbar from "./components/animateNavbar/animatedNavbar";
 import { Link } from "react-scroll";
 import "./components/NavBar//NavBar.css";
 
@@ -54,7 +36,6 @@ function App() {
         <Route path="/Footer" exact component={Footer} />
       </Switch>
     </Router>
->>>>>>> 620c487e7b0cda5fd4be8b66d9a7891d3d3c50cf
   );
 }
 
