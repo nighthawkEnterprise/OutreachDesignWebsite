@@ -6,6 +6,12 @@ import AboutUs from "./components/AboutUsPage/AboutUs";
 import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
 import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Icon from "./components/Icons/Icon";
+import Info from "./components/Icons/Info";
+import SigninRegister from "./components/Forms/Form";
+
+import { Link } from "react-scroll";
 import "./components/NavBar//NavBar.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -31,3 +37,4 @@ function App() {
 }
 
 export default App;
+//
