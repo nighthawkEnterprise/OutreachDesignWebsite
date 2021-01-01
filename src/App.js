@@ -6,7 +6,7 @@ import AboutUs from "./components/AboutUsPage/AboutUs";
 import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
 import Footer from "./components/Footer/Footer";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 import Icon from './components/Icons/Icon';
 import Info from "./components/Icons/Info";
 
@@ -19,7 +19,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <Router>
-<<<<<<< HEAD
 
       <div>
         <NavBar />
@@ -43,17 +42,6 @@ function App() {
         <Route path="/Footer" exact component={Footer} />
       </Switch>
 
-=======
-       <NavBar/>
-        <Home/>
-        <Icon/>
-        <AboutUs />
-        <SimpleDesign/>
-        <Blog />
-        <MeetUs />
-        <Contact />
-        <Footer />
->>>>>>> parent of b0400521... not finished
     </Router>
   );
 }
