@@ -39,6 +39,7 @@ class Home extends Component {
             <br />
           </div>
         </div>
+
         <div class="container">
           <a href="" className="btn btn-1">
             <h2>icon</h2>
@@ -86,6 +87,7 @@ class Home extends Component {
         <br />
         <br />
         <Footer />
+
       </Fragment>
     );
   }
