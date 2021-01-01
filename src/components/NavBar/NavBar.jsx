@@ -1,5 +1,5 @@
 
-import { Link } from "react-scroll";
+import React, { Component } from "react";
 
 
 import "./NavBar.css";
@@ -19,6 +19,7 @@ function NavBar(props) {
 
           <div className="navContentsFlex">
             <div className="navContents">
+
               <Link
                 className="navContent"
                 activeClass="active"
@@ -89,6 +90,74 @@ function NavBar(props) {
                 Contact
               </Link>
       
+
+
+              <a className="navContent" href="/">
+                <span className="underLine">Home</span>
+              </a>
+
+              <div className="dropDownParent">
+                <button className="dropDown">
+                  <span className="underLine">Activities</span>
+                  <span>
+                    <i
+                      id="downArrow"
+                      className="fa fa-angle-down"
+                      aria-hidden="true"
+                    ></i>
+                  </span>{" "}
+                </button>
+
+                <ul>
+                  <a href="/Contact">
+                    <li>Contact</li>
+                  </a>
+
+                  <a href="/MeetUs">
+                    <li>MeetUs</li>
+                  </a>
+
+                  <a href="/Blog">
+                    <li>Blog</li>
+                  </a>
+                </ul>
+              </div>
+              {/* -------------------------------------- */}
+
+              <a className="navContent" href="/">
+                <span className="underLine">Portfolio</span>
+              </a>
+
+              <div className="dropDownParent">
+                <button className="dropDown">
+                  <span className="underLine">Resources</span>
+                  <span>
+                    {" "}
+                    <i
+                      id="downArrow"
+                      className="fa fa-angle-down"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                </button>
+
+                <ul>
+                  <li>
+                    <a href="/Contact">Contact</a>
+                  </li>
+                  <li>
+                    <a href="/MeetUs">MeetUs</a>
+                  </li>
+
+                  <li>
+                    <a href="/Blog">Blog</a>
+                  </li>
+                </ul>
+              </div>
+
+              <a className="navContent" href="/">
+                <span className="underLine">About</span>
+              </a>
 
             </div>
             <div className="searchForm">
