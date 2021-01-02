@@ -92,9 +92,6 @@
   margin-bottom: 10px;
   color: rgb(250, 84, 7);
   padding: 9px;
-
-  cursor: pointer;
-
   border: none;
   background: white;
   width: 100%;
@@ -124,7 +121,6 @@ button:focus {
   /* border: solid red 1px; */
   padding: 15px 0 15px 15px;
   list-style: none;
-
 }
 
 .outreachLogo {
