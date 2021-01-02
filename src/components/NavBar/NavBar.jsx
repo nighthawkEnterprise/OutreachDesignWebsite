@@ -1,6 +1,4 @@
-
 import React, { Component } from "react";
-
 
 import "./NavBar.css";
 
@@ -19,79 +17,6 @@ function NavBar(props) {
 
           <div className="navContentsFlex">
             <div className="navContents">
-
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="frontPage"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Home
-              </Link>
-              <Link 
-               className="navContent"
-               activeClass="active" to="activities">
-
-              Activities  
-              {/* <Dropdown  actItem={activities}/> */}
-              </Link>
-
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="#"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Resources
-              </Link>
-
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="blogPageTitle"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Blog
-              </Link>
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="AboutUs"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Project
-              </Link>
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="AboutUs"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                About
-              </Link>
-              <Link
-                className="navContent"
-                activeClass="active"
-                to="contactPage"
-                spy={true}
-                smooth={true}
-                duration={200}
-              >
-                Contact
-              </Link>
-      
-
-
               <a className="navContent" href="/">
                 <span className="underLine">Home</span>
               </a>
@@ -158,7 +83,6 @@ function NavBar(props) {
               <a className="navContent" href="/">
                 <span className="underLine">About</span>
               </a>
-
             </div>
             <div className="searchForm">
               <a href="" className="fa fa-search"></a>
@@ -171,7 +95,7 @@ function NavBar(props) {
             </div>
 
             <div className="signingButtens">
-              <a href="" className="signin">
+              <a href="signin" className="signin">
                 {" "}
                 Sign in{" "}
               </a>
