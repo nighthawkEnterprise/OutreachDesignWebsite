@@ -49,7 +49,7 @@ function NavBar(props) {
             </div>
             {/* -------------------------------------- */}
 
-            <a className="navContent" href="/">
+            <a className="navContent" href="/Portfolio">
               <span className="underLine">Portfolio</span>
             </a>
 
