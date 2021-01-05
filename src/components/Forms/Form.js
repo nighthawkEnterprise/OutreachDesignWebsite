@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Signin from './Sing';
 import Signup from './Signup';
-import "./Signin.css" ;
+import Footer from '../Footer/Footer';
+import "./Signin.css";
   
 
 function SigninRegister() {
@@ -46,7 +47,7 @@ function SigninRegister() {
 
     return(
     <div className="login-container">
-
+          <i class="fa fa-user icon" id="login-icon"></i>
         <div className ="login-register-wrapper">
             <div className="nav-buttons">
                 <animated.button onClick={signinClicked} 
@@ -74,6 +75,9 @@ function SigninRegister() {
         <animated.form className="forgot-panel" style={loginproperties} > 
             <a href="#"> Forgot your password?</a>
         </animated.form>
+   </div>
+   <div className="sing-footer">
+   <Footer/>
    </div>
 </div>
     )

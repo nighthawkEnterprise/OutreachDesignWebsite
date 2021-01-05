@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer";
 
 import Icon from './components/Icons/Icon';
 import Info from "./components/Icons/Info";
-
+import GetStarted from './components/GetStarted/GetStarted';
 import SigninRegister from './components/Forms/Form';
 import { Link } from "react-scroll";
 import "./components/NavBar//NavBar.css";
@@ -40,6 +40,7 @@ function App() {
         <Route path="/Blog" component={Blog} />
         <Route path="/Footer" exact component={Footer} />
         <Route path="/signin" exact component={SigninRegister} />
+        <Route path="/getstarted" exact component={GetStarted} />
       </Switch>
      
     </Router>

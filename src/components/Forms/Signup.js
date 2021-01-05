@@ -4,12 +4,16 @@ import { Link } from 'react-router-dom'
 function Signup(){
     return(
         <>
+     <i class="fa fa-user icon"></i>
      <label for="fullname">full name</label>
       <input type="text" id="fullname" />
+      <i class="fa fa-envelope icon"></i>
       <label for="email">email</label>
       <input type="email" id="email" />
+      <i class="fa fa-key icon"></i>
       <label for="password">password</label>
       <input type="password" id="password" />
+      <i class="fa fa-key icon"></i>
       <label for="password">confirm password</label>
       <input type="password" id="confirmpassword" />
       <input type="submit" value="submit" class="submit" />

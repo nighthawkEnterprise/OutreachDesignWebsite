@@ -99,7 +99,7 @@ function NavBar(props) {
                 {" "}
                 Sign in{" "}
               </a>
-              <a href="" className="getStarted">
+              <a href="getstarted" className="getStarted">
                 {" "}
                 Get started{" "}
               </a>
