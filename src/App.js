@@ -5,30 +5,19 @@ import MeetUs from "./components/MeetUs/MeetUs";
 import AboutUs from "./components/AboutUsPage/AboutUs";
 import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
+import Portfolio from "./components/Portfolio/PortfolioPage";
 import Footer from "./components/Footer/Footer";
-
-import Icon from './components/Icons/Icon';
-import Info from "./components/Icons/Info";
-
-import SigninRegister from './components/Forms/Form';
-import { Link } from "react-scroll";
+import SigninRegister from "./components/Forms/Form";
 import "./components/NavBar//NavBar.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import PortfolioPage from "./components/Portfolio/PortfolioPage";
 
 function App() {
   return (
     <Router>
       <div>
         <NavBar />
-        {/* <Home /> */}
-        {/* <SimpleDesign /> */}
-        {/* <AboutUs /> */}
-        {/* <Blog /> */}
-        {/* <MeetUs /> */}
-        {/* <Contact /> */}
-        {/* <Footer /> */}
-        {/* <AnimatedNavbar /> */}
       </div>
 
       <Switch>
@@ -36,15 +25,15 @@ function App() {
         <Route path="/SimpleDesign" exact component={SimpleDesign} />
         <Route path="/AboutUs" exact component={AboutUs} />
         <Route path="/Contact" component={Contact} />
+        <Route path="/Portfolio" exact component={PortfolioPage} />
         <Route path="/MeetUs" component={MeetUs} />
         <Route path="/Blog" component={Blog} />
         <Route path="/Footer" exact component={Footer} />
         <Route path="/signin" exact component={SigninRegister} />
       </Switch>
-     
     </Router>
   );
 }
 
 export default App;
-// 
+//

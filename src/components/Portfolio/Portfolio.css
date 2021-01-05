@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Courgette&family=Yantramanav&display=swap");
+
+.container_port {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(10deg, white 10%, rgb(247, 216, 203) 90%);
+  color: rgb(107, 57, 34);
+}
+
+.main_port {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.caro_card {
+  width: 800px;
+  height: 100vh;
+  background-color: whitesmoke;
+  color: white;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 7px;
+}
+
+.caro_contain {
+  width: 900px;
+  background-color: none;
+  margin-right: 10px;
+  margin-bottom: 100px;
+}
+
+.main_header {
+  width: 50%;
+  height: 10vh;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.main_header h3 {
+  font-family: "Courgette", cursive;
+  background-color: rgb(168, 118, 95);
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+  width: 530px;
+  height: 60px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.main_header h2 {
+  font-family: "Bree Serif", serif;
+  font-size: 33px;
+  margin-bottom: 10px;
+}
+
+.caro_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+.dis_contain {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  margin-top: -80px;
+  border-bottom: 1px solid rgb(168, 118, 95);
+}
+
+.side_1 {
+  width: 40%;
+  height: 20vh;
+}
+
+.side_1_title {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.side_1_subtitle {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.app_used {
+  display: flex;
+  margin-top: 20px;
+}
+
+.app_used p {
+  margin-right: 10px;
+  background-color: rgb(168, 118, 95);
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.portfo_link {
+  text-decoration: none;
+  color: rgb(168, 118, 95);
+}
+
+.portfo_link:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.text {
+  background: linear-gradient(10deg, white 10%, rgb(247, 216, 203) 90%);
+}
