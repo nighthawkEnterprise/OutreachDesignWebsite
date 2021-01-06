@@ -1,14 +1,16 @@
-import "./signin.css"
+import "./Signin.css";
 
 function Signin(){
     return(
-        <form action='' id='loginform'>
+        <>
+           <i class="fa fa-user icon"></i>
            <label for="username">USERNAME</label>
             <input type="text" id="username" />
+            <i class="fa fa-key icon"></i>
             <label for="password">PASSWORD</label>
-             <input type="text" id="password" />
+             <input type="password" id="password" />
             <input type="submit" value="submit" className="submit" />
-        </form>
+        </>
     )
 }
 export default Signin
