@@ -47,7 +47,9 @@ function SigninRegister() {
 
     return(
     <div className="login-container">
-          <i class="fa fa-user icon" id="login-icon"></i>
+        <div id="login-icon">
+        <i class="fa fa-user icon" ></i>
+        </div>
         <div className ="login-register-wrapper">
             <div className="nav-buttons">
                 <animated.button onClick={signinClicked} 
