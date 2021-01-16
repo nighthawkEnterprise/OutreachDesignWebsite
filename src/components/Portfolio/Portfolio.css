@@ -28,6 +28,12 @@
   padding: 7px;
 }
 
+.caro_img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .caro_contain {
   width: 900px;
   background-color: none;

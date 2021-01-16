@@ -23,7 +23,6 @@ body {
 
 .grid_contain {
   color: rgb(107, 57, 34);
-
   background: white;
   display: flex;
   align-items: center;
@@ -45,7 +44,6 @@ body {
   height: 120px;
   border-top: 4px solid rgb(236, 216, 216);
   width: 100%;
-  /* background: cornsilk; */
   background: linear-gradient(
     1deg,
     rgb(255, 255, 255) 10%,
@@ -98,8 +96,8 @@ body {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  width: 300px;
-  height: 420px;
+  width: 320px;
+  height: 500px;
   border-top: solid 6px rgb(247, 113, 113);
   box-shadow: 1px 1px 5px 5px rgb(233, 233, 233);
 }

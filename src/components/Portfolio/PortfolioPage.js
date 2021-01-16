@@ -19,6 +19,7 @@ function Portfolio() {
               <Carousel breakPoints={breakPoints}>
                 <div className="caro_card">
                   <img
+                    className="caro_img"
                     src="/img/web1.jpg"
                     alt="webpage"
                     width="100%"
@@ -27,6 +28,7 @@ function Portfolio() {
                 </div>
                 <div className="caro_card">
                   <img
+                    className="caro_img"
                     src="/img/web2.jpg"
                     alt="webpage"
                     width="100%"
@@ -35,9 +37,10 @@ function Portfolio() {
                 </div>
                 <div className="caro_card">
                   <img
+                    className="caro_img"
                     src="/img/web3.png"
                     alt="webpage"
-                    width="100%"
+                    width="120%"
                     height="100%"
                   />
                 </div>
@@ -47,14 +50,17 @@ function Portfolio() {
               <Carousel breakPoints={breakPoints}>
                 <div className="caro_card">
                   <img
+                    className="caro_img"
+                    className="caro_img"
                     src="/img/webb1.jpg"
                     alt="webpage"
-                    width="100%"
+                    width="90%"
                     height="100%"
                   />
                 </div>
                 <div className="caro_card">
                   <img
+                    className="caro_img"
                     src="/img/webb2.png"
                     alt="webpage"
                     width="100%"
@@ -63,6 +69,7 @@ function Portfolio() {
                 </div>
                 <div className="caro_card">
                   <img
+                    className="caro_img"
                     src="/img/webb3.png"
                     alt="webpage"
                     width="100%"
@@ -97,10 +104,9 @@ function Portfolio() {
               </a>{" "}
               <br />
               <p className="side_1_subtitle">
-                This is a news site coupled with sales and promotion. 9ja
-                diaspora is one of our many project. It was completed just in
-                time for our client and we still handle the optimization and
-                updates.
+                Codespire is a IT bootcamp website. It was put together
+                professionally, highly functional in all platform and still get
+                steady updates.
               </p>
               <span className="app_used">
                 <p>React</p>
@@ -116,26 +122,62 @@ function Portfolio() {
           <div className="caro_contain">
             <Carousel breakPoints={breakPoints}>
               <div className="caro_card">
-                <img src="A" alt="webpage" width="100%" height="100%" />
+                <img
+                  className="caro_img"
+                  src="/img/webbb1.jpg"
+                  alt="webpage"
+                  width="80%"
+                  height="100%"
+                />
               </div>
               <div className="caro_card">
-                <img src="B" alt="webpage" width="100%" height="100%" />
+                <img
+                  className="caro_img"
+                  src="/img/webbb2.jpg"
+                  alt="webpage"
+                  width="80%"
+                  height="100%"
+                />
               </div>
               <div className="caro_card">
-                <img src="C" alt="webpage" width="100%" height="100%" />
+                <img
+                  className="caro_img"
+                  src="/img/webbb3.jpg"
+                  alt="webpage"
+                  width="80%"
+                  height="100%"
+                />
               </div>
             </Carousel>
           </div>
           <div className="caro_contain">
             <Carousel breakPoints={breakPoints}>
               <div className="caro_card">
-                <img src="1" alt="webpage" width="100%" height="100%" />
+                <img
+                  className="caro_img"
+                  src="/img/webbbb1.jpg"
+                  alt="webpage"
+                  width="80%"
+                  height="100%"
+                />
               </div>
               <div className="caro_card">
-                <img src="2" alt="webpage" width="100%" height="100%" />
+                <img
+                  className="caro_img"
+                  src="/img/webbbb2.jpg"
+                  alt="webpage"
+                  width="100%"
+                  height="100%"
+                />
               </div>
               <div className="caro_card">
-                <img src="3" alt="webpage" width="100%" height="100%" />
+                <img
+                  className="caro_img"
+                  src="/img/webbbb3.jpg"
+                  alt="webpage"
+                  width="80%"
+                  height="100%"
+                />
               </div>
             </Carousel>
           </div>
@@ -143,35 +185,36 @@ function Portfolio() {
         <div className="dis_contain">
           <div className="side_1">
             <a className="portfo_link" href="">
-              <p className="side_1_title">LOREM</p>
+              <p className="side_1_title">MKP</p>
             </a>{" "}
             <br />
             <p className="side_1_subtitle">
-              loremAute anim cupidatat duis enim aliqua exercitation sint.
-              loremAute anim cupidatat duis enim aliqua exercitation sint.
-              loremAute anim cupidatat duis enim aliqua exercitation sint.
+              MKP is a none for profit organization that needed a plateform
+              where they can have their users come together to share expereince
+              and meet. Its both a web and mobile application put together
+              professionally.
             </p>
             <span className="app_used">
               <p>React</p>
-              <p>Express</p>
+              <p>Native</p>
               <p>Mongoose</p>
               <p>Sass</p>
             </span>
           </div>
           <div className="side_1">
             <a className="portfo_link" href="">
-              <p className="side_1_title">LOREM</p>
+              <p className="side_1_title">Appointment-Animator</p>
             </a>{" "}
             <br />
             <p className="side_1_subtitle">
-              loremAute anim cupidatat duis enim aliqua exercitation sint.
-              loremAute anim cupidatat duis enim aliqua exercitation sint.
-              loremAute anim cupidatat duis enim aliqua exercitation sint.
+              This is a mobile app applications that was put together for a
+              company that wants an easier way to schedule Appointment. It was
+              professionally constructed and well functional.
             </p>
             <span className="app_used">
               <p>React</p>
               <p>Atlas</p>
-              <p>Express</p>
+              <p>Native</p>
               <p>Sass</p>
             </span>
           </div>

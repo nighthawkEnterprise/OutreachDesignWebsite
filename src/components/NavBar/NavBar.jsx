@@ -53,31 +53,10 @@ function NavBar(props) {
               <span className="underLine">Portfolio</span>
             </a>
 
-            <div className="dropDownParent">
-              <button className="dropDown">
+            <div className="navContent">
+              <a className="dropDown">
                 <span className="underLine">Resources</span>
-                <span>
-                  {" "}
-                  <i
-                    id="downArrow"
-                    className="fa fa-angle-down"
-                    aria-hidden="true"
-                  ></i>
-                </span>
-              </button>
-
-              <ul>
-                <li>
-                  <a href="/Contact">Contact</a>
-                </li>
-                <li>
-                  <a href="/MeetUs">MeetUs</a>
-                </li>
-
-                <li>
-                  <a href="/Blog">Blog</a>
-                </li>
-              </ul>
+              </a>
             </div>
 
             <a className="navContent" href="/">
