@@ -7,6 +7,10 @@ import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
 import Portfolio from "./components/Portfolio/PortfolioPage";
 import Footer from "./components/Footer/Footer";
+
+
+
+import { Link } from "react-scroll";
 import SigninRegister from "./components/Forms/Form";
 import "./components/NavBar//NavBar.css";
 
@@ -36,4 +40,4 @@ function App() {
 }
 
 export default App;
-//
+
