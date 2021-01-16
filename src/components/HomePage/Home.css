@@ -64,7 +64,6 @@
 }
 
 /* -------------------------------------------homeButtons------------------------------ */
-
 .container {
   display: flex;
   justify-content: center;
@@ -151,4 +150,3 @@
     #fffdf9 100%
   );
 }
-

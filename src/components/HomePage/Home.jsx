@@ -11,17 +11,12 @@ class Home extends Component {
         {" "}
         <div className="frontPage">
           <div className="frontPageTitle">
-            <h1>Where Work Happens</h1>
+            <h1>High Quality Work </h1>
             <p>
-              Any successful company big or small has to have a way their
-              customers can reach them easily from around the world. One of the
-              best ways is through a website. Outreach Design is here to help
-              you fill that gap in your company by creating a solid dynamic or
-              static website that is responsive on all platform and help your
-              customer reach you easily. Outreach Design has 5 years of
-              experience building applications and solving web problems, in turn
-              leaving many businesses happy. Let chat about your website ideas
-              and work together to achieve your goals. Get 30% whooper discount!
+              Powered by recent graduates of coding bootcamps, Outreach Design empowers both businesses
+              and graduates the opportunity to work together in a mutually beneficial way. High quality work
+              for the business without the high quality price while the graduates are guided to real world experience
+              by industry professionals. 
             </p>
             <a href="#" className="getStarted">
               Get started
@@ -39,7 +34,6 @@ class Home extends Component {
             <br />
           </div>
         </div>
-
         <div class="container">
           <a href="" className="btn btn-1">
             <h2>icon</h2>
@@ -87,7 +81,6 @@ class Home extends Component {
         <br />
         <br />
         <Footer />
-
       </Fragment>
     );
   }

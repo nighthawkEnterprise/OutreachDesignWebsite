@@ -26,22 +26,19 @@ export class AboutUsPage extends Component {
             <a href="" className="card">
               <p>
                 {/* <i className="fab fa-satellite-dh"></i> */}
-                <h2> Search Engine Optimization</h2>
-                Apart from owning a website that is super cute, it’s very
-                important for your website to be able to pop out across all
-                major search engines. This will make your clientele have easy
-                access to the information they need through your website.
-                Outreach Design team specializes on this field of work. We
-                optimize your website to make sure it not only shows up on
-                results but it also shows as the top 5 results found when
-                searched.
+                <h2> Mobile App Development</h2>
+                Increase customer loyalty, build a stronger brand,
+                and increase customer retention by having a mobile app for your business.
+                In today's day and age, relying on only web presence is not enough, and increasigly
+                trends are shifting towards mobile everything. Work with us to find out how we can create
+                your customized mobile application today.
               </p>
             </a>
 
             <a href="" className="card">
               <p>
                 {/* <i className="fas fa-satellite-dis"></i> */}
-                <h2>Web Development</h2>
+                <h2>App Development</h2>
                 We offer after product services, we continue to work with you
                 even after your website is completed to make sure you have an up
                 and running website the whole time. Our development does not
@@ -59,29 +56,6 @@ export class AboutUsPage extends Component {
                 for users on phones or iPads or laptops. Responsiveness is part
                 of Outreach Design accolade, we make sure all websites we
                 produce shows on all platforms, be it large or small.
-              </p>
-            </a>
-
-            <a href="" className="card">
-              <p>
-                {/* <i className="fa fa-hert"></i> */}
-                <h2>Site Speed Optimization</h2>
-                Speed is all you need to keep a user on your page, you want your
-                information to open when they are clicked. We work on speed
-                optimization to make sure we don’t have a slow website. We use
-                React to maximize your website into smaller components to form
-                one large result in turn optimizing the speed capacity.
-              </p>
-            </a>
-            <a href="" className="card">
-              <p>
-                {/* <i className="fa fa-uer"></i> */}
-                <h2>Web Development</h2>
-                We offer after product services, we continue to work with you
-                even after your website is completed, to make sure you have an
-                up and running website at all times. Our development does not
-                stop there. When it comes to Outreach Design we always find ways
-                to make your website even better and more modern.
               </p>
             </a>
           </div>

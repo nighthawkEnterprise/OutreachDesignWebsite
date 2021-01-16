@@ -40,7 +40,7 @@ function contactPage() {
         <div className="contactInfo">
           <i class="fa fa-paper-plane"></i>
           <h4>
-            outreachdesign@outreach.com <span>|</span>{" "}
+            outreachdesign@outreach.com <span className="cont_title">|</span>{" "}
           </h4>
           <i class="fa fa-phone-square"></i>
           <h4>000-000-0000</h4>
@@ -56,11 +56,11 @@ function contactPage() {
               />
             </div>
             <div className="contactPageEmail ">
-              <input type="text" placeholder="Email" name="email" required />
+              <input type="email" placeholder="Email" name="email" required />
             </div>
             <div className="contactPageName">
               <input
-                type="text"
+                type="number"
                 placeholder="Phone Number"
                 name="PhoneNumber"
                 required

@@ -5,7 +5,7 @@ import Signin from './Sing';
 import Signup from './Signup';
 import Footer from '../Footer/Footer';
 import "./Signin.css";
-  
+
 
 function SigninRegister() {
     const [registrationForm, setRegistrationForm] = useState(false);
@@ -13,13 +13,13 @@ function SigninRegister() {
         left: registrationForm ? -500 : 0,
         // opacity: registrationForm ? 0 : 1
 
-    }) 
+    })
 
     const registerproperties = useSpring({
         left: registrationForm ? 0: 500,
         // opacity: registrationForm ? 1 : 0
 
-    }) 
+    })
 
     const loginBtnProperties = useSpring({
         borderBottom: registrationForm
@@ -28,21 +28,21 @@ function SigninRegister() {
         })
 
     const registerBtnProperties = useSpring({
-         borderBottom: registrationForm 
-        ? "solid 2px #1059FF" 
+         borderBottom: registrationForm
+        ? "solid 2px #1059FF"
          :'solid 0px transparent',
          })
-    
+
 
     function signupClicked(){
-       
+
         setRegistrationForm(true)
     }
     function signinClicked(){
-    
+
         setRegistrationForm(false)
     }
-    
+
 
 
     return(
@@ -52,21 +52,21 @@ function SigninRegister() {
         </div>
         <div className ="login-register-wrapper">
             <div className="nav-buttons">
-                <animated.button onClick={signinClicked} 
+                <animated.button onClick={signinClicked}
                 className="loginBtn" style={loginBtnProperties} >
                     Login
                 </animated.button>
 
-                <animated.button onClick={signupClicked} className="registerBtn" 
+                <animated.button onClick={signupClicked} className="registerBtn"
                 style={registerBtnProperties}>
                     Register
-                 
+
                 </animated.button>
             </div>
 
 
          <div className="form-group">
-            <animated.form action='' className='loginform' style={loginproperties}> 
+            <animated.form action='' className='loginform' style={loginproperties}>
                 <Signin/>
             </animated.form>
 
@@ -74,7 +74,7 @@ function SigninRegister() {
                 <Signup/>
             </animated.form>
         </div>
-        <animated.form className="forgot-panel" style={loginproperties} > 
+        <animated.form className="forgot-panel" style={loginproperties} >
             <a href="#"> Forgot your password?</a>
         </animated.form>
    </div>
