@@ -1,10 +1,10 @@
 .contactPage {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   align-content: center;
   flex-direction: column;
-  height: 1800px;
+  height: 1200px;
   color: rgb(107, 57, 34);
 }
 
@@ -13,12 +13,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 160px;
-  background: rgb(158, 80, 44);
-  color: white;
-  font-size: 20px;
-  margin: 140px 0;
+
+  color: rgb(158, 80, 44);
+  font-size: 30px;
 }
+.contactUs h1 {
+  border: solid rgb(158, 80, 44) 6px;
+  border-radius: 20px;
+  padding: 20px 50px;
+  font-size: 34px;
+}
+
 .contactPageChild {
   display: flex;
   justify-content: center;
@@ -30,7 +35,7 @@
   /* border: solid 2px red; */
   padding: 20px;
   border-radius: 10px;
-  background: linear-gradient(rgb(247, 216, 203), rgb(255, 255, 255));
+  background: linear-gradient(rgb(255, 192, 165), rgb(255, 223, 208));
   box-shadow: -3px -3px rgb(240, 237, 236), 1px 1px 1px rgb(245, 235, 231),
     3px 3px 3px rgb(245, 235, 231);
   /* margin: auto; */

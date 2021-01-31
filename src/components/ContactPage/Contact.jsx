@@ -69,13 +69,12 @@ function contactPage() {
             <div className="contactPageMessage">
               <textarea placeholder="Enter text here" name="message" required />
             </div>
-            {/* <div className="buttonParent"> */}
+
             <input
               className="contactPageButton"
               Value="Send Message"
               type="submit"
             />
-            {/* </div> */}
           </form>
 
           <div className="map">
@@ -98,7 +97,7 @@ function contactPage() {
           Our business hours are Mon. - Fri. 8am - 5pm.
         </p>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

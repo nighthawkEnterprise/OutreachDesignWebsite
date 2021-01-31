@@ -34,7 +34,7 @@ function NavBar(props) {
               </button>
 
               <ul>
-                <a href="/Contact">
+                <a href="#">
                   <li>Contact</li>
                 </a>
 
