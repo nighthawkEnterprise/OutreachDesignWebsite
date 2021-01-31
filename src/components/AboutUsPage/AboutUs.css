@@ -8,6 +8,12 @@
   background: linear-gradient(10deg, white 10%, rgb(255, 253, 252) 90%);
   /* margin-top: 100px; */
 }
+.AboutUs h1 {
+  border: solid rgb(158, 80, 44) 6px;
+  border-radius: 20px;
+  padding: 20px 50px;
+  font-size: 34px;
+}
 
 .cardsPageParent {
   width: 100%;

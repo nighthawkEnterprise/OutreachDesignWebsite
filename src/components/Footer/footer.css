@@ -25,6 +25,7 @@
 }
 
 .footerContantsChild {
+  /* background: url("./img/footerLogo.PNG"); */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -38,11 +39,13 @@
 }
 
 .footerLogo {
+  width: 350px;
   margin: 0 40px 50px 0;
+  /* background: url("./img/footerLogo.PNG"); */
   /* border: solid 1px rgb(248, 194, 173); */
 }
 .outreachLogo {
-  width: 260px;
+  width: 280px;
   /* border: solid 1px rgb(121, 110, 106); */
 }
 .footerColor1 {
@@ -54,7 +57,7 @@
 .footerLogoText {
   color: rgb(248, 194, 173);
   font-size: 28px;
-  margin: 0 0 20px 3px;
+  margin: 40px 0 0 0;
 }
 .contacts {
   /* border: solid 1px rgb(248, 194, 173); */
