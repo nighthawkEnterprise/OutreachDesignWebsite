@@ -16,7 +16,8 @@ body {
   flex-direction: column;
   height: 1200px;
   margin-top: 200px;
-  border: solid 1px red;
+  /* border: solid 1px red; */
+
   width: 100%;
   box-sizing: border-box;
 }
@@ -118,7 +119,7 @@ body {
   background: white;
   color: rgb(69, 69, 216);
   border: solid 1px rgb(84, 84, 248);
-  padding: 11px 13px;
+  padding: 19px;
 }
 
 .team_bio {
