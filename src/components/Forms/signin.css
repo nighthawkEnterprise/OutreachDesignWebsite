@@ -1,146 +1,177 @@
-.login-container{
-     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 100px;
-    background:linear-gradient(-45deg, #a58379, white);
-
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  /* border: solid 1px red; */
+  margin-top: 90px;
+  /* padding-bottom: 100px; */
+  background: linear-gradient(-45deg, #ffd9cd, rgb(255, 245, 232));
 }
-.login-register-wrapper{
-    height: 600px;
-    width: 470px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom:80px;
-    padding:0 2em;
-    border-radius: 5px;
-    box-shadow: 0px 2px 7px rgb(43, 43, 34);
-    overflow: hidden;
-    color: black;
-    background: linear-gradient(10deg, white 10%, rgb(247, 216, 203) 90%)
-
+.login-register-wrapper {
+  height: 600px;
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column; */
+  width: 500px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-top: 150px; */
+  padding: 0 2em;
+  border-radius: 25px;
+  /* box-shadow: 0px 0px 3px; */
+  overflow: hidden;
+  color: black;
+  background: linear-gradient(10deg, white 10%, rgb(255, 195, 169) 90%);
 }
 .nav-buttons {
-    width: 100%;
-    height: 100px;
-    padding-top: 40px;
-    opacity: 1;
-    margin-bottom: 3em;
-    margin-right:20px;
+  width: 100%;
+  height: 90px;
+  /* margin-top: 40px; */
+  opacity: 1;
+  margin-bottom: 3em;
+  /* margin-right: 20px; */
+  /* border: solid red 1px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
-.nav-buttons :hover{
-    background: rgb(202, 227, 235);
-    padding-right: 25px;
-    box-shadow: 0px 10px 7px rgb(19, 19, 18);
-   
-}
-button{
-    font-size: 1.5em;
-    border:1px orange;
-    padding: 10px;
-    cursor: pointer;
-    color: rgb(250, 84, 7);
-    border-radius: 12px;
-    /* background-color:brown; */
+/* .nav-buttons :hover {
+  background: rgb(202, 227, 235);
+  padding-right: 25px;
+  box-shadow: 0px 10px 7px rgb(19, 19, 18);
+} */
+
+button {
+  font-size: 1.5em;
+  border: 1px orange;
+  /* padding: 10px; */
+  cursor: pointer;
+  color: rgb(250, 84, 7);
+  border-radius: 12px;
+  /* background-color:brown; */
 }
 
-button:focus{
-    outline: 0px;
+button:focus {
+  outline: 0px;
 }
 button.active {
-    padding-bottom: 10px;
-    /* border-bottom: solid 2px blue; */
+  padding-bottom: 10px;
+  /* border-bottom: solid 2px blue; */
 }
-.forgot-panel{
-    position:relative;
-    height: 100px;
-    margin-left:auto;
-    text-align:center;
-    padding-top: 20px;
-    border-top:solid 1px blue;
-    margin-top: -300px;
+.forgot-panel {
+  position: relative;
+  height: 100px;
+  margin-left: auto;
+  text-align: center;
+  padding-top: 20px;
+  /* border-top: solid 1px blue; */
+  margin-top: -300px;
 }
-form, .forgot-panel{
-    color: gray;
-    transition: all .5s ease;
+form,
+.forgot-panel {
+  color: gray;
+  transition: all 0.5s ease;
 }
 
 .form-group input {
-    width: 100%;
-    height: 35px;
-    padding-left: 15px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background: aliceblue;
+  width: 100%;
+  height: 35px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background: aliceblue;
+  /* border: solid red 1px; */
 }
-.form-group label{
-    text-transform: uppercase;
-    
+.form-group label {
+  text-transform: uppercase;
 }
-.loginBtn, .registerBtn {
-    transition: all .5s ease;
-    margin-left:60px;
-    background: ivory;
+.loginBtn,
+.registerBtn {
+  transition: all 0.5s ease;
+  text-decoration: none;
+  border: none;
+  /* cursor: pointer; */
+
+  padding: 10px;
+
+  outline: none;
+}
+.loginBtn:hover,
+.registerBtn:hover {
+  box-shadow: 0px 3px 5px rgb(250, 84, 7);
+  background: rgb(255, 255, 255);
+  /* border: solid 2px rgb(250, 84, 7); */
+  color: rgb(250, 84, 7);
+  /* padding: 20px; */
+  /* padding-right: 25px; */
 }
 
-form.registerform{
-    left:500px;
-    top: -230px;
-    position:relative;
+form.registerform {
+  left: 500px;
+  top: -230px;
+  position: relative;
 }
-form.loginform{
-    left:500px;
-  
-    position:relative;
+form.loginform {
+  left: 500px;
+
+  position: relative;
 }
 input.submit {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1em;
-    text-align: center;
-    color: rgba(255,255,255, 1);
-    padding: 8px 0px;
-    width: 100%;
-    height: 35px;
-    border: none;
-    border-radius: 20px;
-    margin-top: 23px;
-    background-color: rgba(16,89,255, 1);
-
+  /* font-weight: 700; */
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding: 8px 0px;
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 23px;
+  background-color: rgba(16, 89, 255, 1);
 }
-.icon-cont{
-    display:flex;
-    flex-direction: row;
-}
-
-#fb, #twitter, #google {
-    text-decoration: none;
-    margin-left: 30px;
-    margin-right: 25px;
-    color: white;
-    padding: 15px;
-    border-radius: 25%;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-    cursor: pointer;
-}
-#fb{
-    background: blue;
-}
-#twitter{
-    background:lightblue;
-}
-#google{
-    background:red;
-}
-.form-group .icon{
-    margin-right: 10px;
-}
-#login-icon i{
-    margin-left: 47%;
-   font-size: 100px;
-   padding-bottom:3px;
-   margin-top:60px;
+input.submit:hover {
+  opacity: 0.6;
 }
 
+.icon-cont a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  font-size: 26px;
+  text-decoration: none;
+
+  color: white;
+  padding: 15px;
+  border-radius: 25%;
+  /* box-shadow: 0 5px #666; */
+  cursor: pointer;
+}
+.icon-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: red solid 2px; */
+  flex-direction: row;
+  height: 70px;
+}
+
+#fb {
+  background: rgb(0, 60, 255);
+}
+#twitter {
+  background: rgb(95, 222, 253);
+}
+#google {
+  background: rgb(0, 102, 255);
+}
+.icon-cont a:hover {
+  opacity: 0.6;
+}

@@ -216,15 +216,6 @@ class Home extends Component {
           </div>
 
           <div className="intro">
-            <div className="introImg">
-              <img
-                height="440px"
-                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://pixeltechnologies.in/wp-content/uploads/2020/04/Animated-Video-Production-Service.png"
-                class="aligncenter"
-                alt=""
-              ></img>
-            </div>
-
             <div className="introText">
               <h1>Title</h1>
               <p>
@@ -238,6 +229,15 @@ class Home extends Component {
                 explicabo perspiciatis qui ullam est voluptates animi nisi
                 voluptatem placeat iusto sed voluptatum
               </p>
+            </div>
+
+            <div className="introImg">
+              <img
+                height="440px"
+                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img/https://pixeltechnologies.in/wp-content/uploads/2020/04/Animated-Video-Production-Service.png"
+                class="aligncenter"
+                alt=""
+              ></img>
             </div>
           </div>
         </div>
