@@ -7,6 +7,7 @@ import Blog from "./components/BlogPage/Blog";
 import Contact from "./components/ContactPage/Contact";
 import Portfolio from "./components/Portfolio/PortfolioPage";
 import Footer from "./components/Footer/Footer";
+import GetStarted from "./components/GetStarted/GetStarted";
 
 
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Blog" component={Blog} />
         <Route path="/Footer" exact component={Footer} />
         <Route path="/signin" exact component={SigninRegister} />
+        <Route path="/getstarted" exact component={GetStarted} />
       </Switch>
     </Router>
   );

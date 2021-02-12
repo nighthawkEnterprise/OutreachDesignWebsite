@@ -73,7 +73,7 @@ button.active {
 form,
 .forgot-panel {
   color: gray;
-  transition: all 0.5s ease;
+  transition: all 0.1s ease;
 }
 
 .form-group input {
