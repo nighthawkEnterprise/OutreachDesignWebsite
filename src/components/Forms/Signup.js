@@ -1,4 +1,4 @@
-import "./Signin.css";
+import "./signin.css";
 import { Link } from "react-router-dom";
 
 function Signup() {
