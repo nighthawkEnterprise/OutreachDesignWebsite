@@ -12,7 +12,7 @@ class Home extends Component {
         {" "}
         <div className="frontPage">
           <div className="frontPageTitle">
-            <h1>bla bla bla bla</h1>
+            <h1>One Stop Shop</h1>
             <p>
               Any successful company big or small has to have a way their
               customers can reach them easily from around the world. One of the
