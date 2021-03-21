@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
-import Signin from "./Sing";
+import Signin from "./SignIn";
 import Signup from "./Signup";
-import "./signin.css";
+import "./Signin.css";
 
 function SigninRegister() {
   const [registrationForm, setRegistrationForm] = useState(false);
