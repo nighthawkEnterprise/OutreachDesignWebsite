@@ -134,7 +134,7 @@ class Home extends Component {
         <div className="homePercentages">
           <div className="intro">
             <div className="statistics">
-              <div className="homePercentage">68%</div>
+              <div className="homePercentage">38%</div>
               <h2>title</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
@@ -143,7 +143,7 @@ class Home extends Component {
               </p>
             </div>
             <div className="statistics">
-              <div className="homePercentage">68%</div>
+              <div className="homePercentage">47%</div>
               <h2>title</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
@@ -152,7 +152,7 @@ class Home extends Component {
               </p>
             </div>
             <div className="statistics">
-              <div className="homePercentage">68%</div>
+              <div className="homePercentage">13%</div>
               <h2>title</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
