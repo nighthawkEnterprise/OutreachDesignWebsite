@@ -120,13 +120,14 @@ class Home extends Component {
             sizes="(max-width: 842px) 100vw, 842px"
           ></img>
           <div className="lastSectionText">
-            <h1>Title</h1>
+          <h1>HOW WE WORK</h1>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              porro et, enim maiores magni non, laboriosam quis mollitia sunt
-              pariatur veritatis magnam. Corporis sapiente doloribus a cum
-              voluptatibus sit placeat ducimus ullam cumque nesciunt ad,
+            Outreach Design looks at your business from a consulting perspective. 
+            We start by learning more about you, your business, and the goals you have for your website.
+             From there, our team provides advice, feedback, logical concepts, 
+            and creative ideas to ensure your company is a great solution to achieving business goals.
             </p>
+
           </div>
         </div>
         {/* --------------------- */}
