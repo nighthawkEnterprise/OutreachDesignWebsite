@@ -12,7 +12,7 @@ function Portfolio() {
         <div className="main_port">
           <div className="main_header">
             <h2>Our Portfolio ~</h2>
-            <h3>Explore few of our many intergrated applications</h3>
+            <h3>Explore a few of our many intergrated applications</h3>
           </div>
           <div className="caro_holder">
             <div className="caro_contain">
