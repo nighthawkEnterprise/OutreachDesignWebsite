@@ -134,30 +134,24 @@ class Home extends Component {
         <div className="homePercentages">
           <div className="intro">
             <div className="statistics">
-              <div className="homePercentage">38%</div>
-              <h2>title</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                beatae eos laborum et distinctio perspiciatis nihil quibusdam
-                illum optio voluptatum?
-              </p>
-            </div>
-            <div className="statistics">
               <div className="homePercentage">47%</div>
-              <h2>title</h2>
+              <h2> Increased Revenue </h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                beatae eos laborum et distinctio perspiciatis nihil quibusdam
-                illum optio voluptatum?
+              47 percent increased revenue for businesses that have mobile apps. Our company helps you set it up
               </p>
             </div>
             <div className="statistics">
-              <div className="homePercentage">13%</div>
-              <h2>title</h2>
+              <div className="homePercentage">55%</div>
+              <h2>Survey</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                beatae eos laborum et distinctio perspiciatis nihil quibusdam
-                illum optio voluptatum?
+              55 percent of respondents said that the biggest motivation for opening your own business is being your own boss.Outreach Design helps you become your own boss. 
+              </p>
+            </div>
+            <div className="statistics">
+              <div className="homePercentage">100%</div>
+              <h2>Our Goal</h2>
+              <p>
+              No matter the challenge, we focus on delivering practical and enduring results, and equipping our clients to grow and lead.
               </p>
             </div>
           </div>
