@@ -134,10 +134,10 @@ class Home extends Component {
         <div className="homePercentages">
           <div className="intro">
             <div className="statistics">
-              <div className="homePercentage">47%</div>
+              <div className="homePercentage">49%</div>
               <h2> Increased Revenue </h2>
               <p>
-              47 percent increased revenue for businesses that have mobile apps. Our company helps you set it up
+              49 percent increased revenue for businesses that have mobile apps. Our company helps you set it up
               </p>
             </div>
             <div className="statistics">
