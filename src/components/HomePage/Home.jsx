@@ -20,7 +20,7 @@ class Home extends Component {
               you fill that gap in your company by creating a solid dynamic or
               static website that is responsive on all platform and help your
             </p>
-            <a href="#" className="getStarted">
+            <a href="GetStarted" className="getStarted">
               Get started
             </a>
           </div>
