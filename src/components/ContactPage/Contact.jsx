@@ -43,7 +43,7 @@ function contactPage() {
             outreachdesign@outreach.com <span className="cont_title">|</span>{" "}
           </h4>
           <i class="fa fa-phone-square"></i>
-          <h4>000-000-0000</h4>
+          <h4>(425)435-5486</h4>
         </div>
         <div className="contactPageFormParent">
           <form className="contactPageForm " onSubmit={sendEmail}>
