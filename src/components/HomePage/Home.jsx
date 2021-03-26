@@ -201,34 +201,32 @@ class Home extends Component {
               ></img>
             </div>
             <div className="introText">
-              <h1>Title</h1>
+              <h1>Web Application Consulting</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur saepe repudiandae autem, ratione, consectetur
-                dolorem nam nobis eius odit similique error ex ut nisi eaque
-                quidem ipsum quam? Sunt incidunt ea quo nisi accusamus amet.
-                Itaque, repellendus! Eligendi fuga dignissimos consequuntur
-                commodi voluptatum harum incidunt earum rerum. Quis quia
-                nesciunt sunt aliquam et corrupti repellendus modi, iste,
-                explicabo perspiciatis qui ullam est voluptates animi nisi
-                voluptatem placeat iusto sed voluptatum
+              Outreach Design offers a comprehensive range of web application 
+              consulting services. Сreating and delivering custom web 
+              applications, we assist businesses in different domains to 
+              keep up with the times and effectively reach their target 
+              audience. We don’t just stick to the beaten track in the 
+              software development process. For each project, our 
+              consultants gain deeper insight into the client’s business 
+              needs to ensure mutually beneficial cooperation and deliver 
+              an individual web solution in the end.
               </p>
             </div>
           </div>
 
           <div className="intro">
             <div className="introText">
-              <h1>Title</h1>
+              <h1>Web and Mobile App Development Services</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur saepe repudiandae autem, ratione, consectetur
-                dolorem nam nobis eius odit similique error ex ut nisi eaque
-                quidem ipsum quam? Sunt incidunt ea quo nisi accusamus amet.
-                Itaque, repellendus! Eligendi fuga dignissimos consequuntur
-                commodi voluptatum harum incidunt earum rerum. Quis quia
-                nesciunt sunt aliquam et corrupti repellendus modi, iste,
-                explicabo perspiciatis qui ullam est voluptates animi nisi
-                voluptatem placeat iusto sed voluptatum
+              Whether you are a small-scale business, a startup, or an 
+              enterprise looking to build a mobile app, our development 
+              process remains the same. We transform your ideas into 
+              successful mobile apps that become an integral part of 
+              everyone’s lives. With our smooth app development process, 
+              the apps we build are engaging, robust, user-friendly, and 
+              well-crafted.
               </p>
             </div>
 
