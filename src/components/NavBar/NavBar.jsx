@@ -61,7 +61,7 @@ function NavBar(props) {
               </a>
             </div>
 
-            <a className="navContent" href="/">
+            <a className="navContent" href="/MeetUs">
               <span className="underLine">About</span>
             </a>
           </div>
