@@ -10,7 +10,7 @@ import Footer from "./components/Footer/Footer";
 import GetStarted from "./components/GetStarted/GetStarted";
 
 
-
+import React from 'react';
 import { Link } from "react-scroll";
 import SigninRegister from "./components/Forms/Form";
 import "./components/NavBar//NavBar.css";
@@ -42,4 +42,3 @@ function App() {
 }
 
 export default App;
-
