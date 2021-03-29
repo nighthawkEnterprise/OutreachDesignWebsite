@@ -50,7 +50,7 @@
 }
 
 .main_header h3 {
-  font-family: "fantasy";
+  font-family: "fantasy"; 
   background-color: rgb(168, 118, 95);
   color: white;
   border-top-right-radius: 10px;
@@ -58,7 +58,7 @@
   padding: 10px;
   width: 530px;
   height: 60px;
-  font-size: 23px;
+  font-size: 20px;
   text-align: center;
 }
 

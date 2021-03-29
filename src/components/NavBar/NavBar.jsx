@@ -11,8 +11,10 @@ function NavBar(props) {
     <div>
       <nav className="navbar">
         <div className="outreachLogo">
+        <a className="navContent" href="/">
           <img src="/img/outreachDesignLogo.PNG" height="45px" />
           <div className="logoText">Outreach Design</div>
+          </a>
         </div>
 
         <div className="navContentsFlex">
@@ -59,7 +61,7 @@ function NavBar(props) {
               </a>
             </div>
 
-            <a className="navContent" href="/">
+            <a className="navContent" href="/MeetUs">
               <span className="underLine">About</span>
             </a>
           </div>
