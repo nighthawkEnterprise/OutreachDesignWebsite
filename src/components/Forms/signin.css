@@ -1,23 +1,21 @@
 .login-container{
      width: 100%;
     padding-top: 20px;
-    padding-bottom: 100px;
-    background:linear-gradient(-45deg, #a58379, white);
+    background: linear-gradient(178deg, #fbb397, white);;
 
 }
 .login-register-wrapper{
-    height: 600px;
+    height: 700px;
     width: 470px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top:150px;
     margin-bottom:80px;
     padding:0 2em;
-    border-radius: 5px;
-    box-shadow: 0px 2px 7px rgb(43, 43, 34);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px 3px rgb(122 77 61);
     overflow: hidden;
     color: black;
-    background: linear-gradient(10deg, white 10%, rgb(247, 216, 203) 90%)
 
 }
 .nav-buttons {
@@ -29,9 +27,10 @@
     margin-right:20px;
 }
 .nav-buttons :hover{
-    background: rgb(202, 227, 235);
+
+    background: rgb(248, 226, 216);
     padding-right: 25px;
-    box-shadow: 0px 10px 7px rgb(19, 19, 18);
+    box-shadow: 0px 1px 7px rgb(19, 19, 18);
    
 }
 button{
@@ -58,10 +57,10 @@ button.active {
     text-align:center;
     padding-top: 20px;
     border-top:solid 1px blue;
-    margin-top: -300px;
+    margin-top: -320px;
 }
 form, .forgot-panel{
-    color: gray;
+    color: rgb(88, 88, 88);
     transition: all .5s ease;
 }
 
@@ -70,9 +69,10 @@ form, .forgot-panel{
     height: 35px;
     padding-left: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 1px;
     margin-bottom: 20px;
-    background: aliceblue;
+    background: #fefaf8;
+    border-bottom: solid .1px;
 }
 .form-group label{
     text-transform: uppercase;
@@ -80,18 +80,19 @@ form, .forgot-panel{
 }
 .loginBtn, .registerBtn {
     transition: all .5s ease;
-    margin-left:60px;
-    background: ivory;
+    margin-left:40px;
+    background: #fdf6f3;
+    width: 150px;
 }
 
 form.registerform{
     left:500px;
-    top: -230px;
+    top: -250px;
     position:relative;
 }
 form.loginform{
     left:500px;
-  
+    padding-top: 20px;
     position:relative;
 }
 input.submit {
@@ -104,8 +105,8 @@ input.submit {
     width: 100%;
     height: 35px;
     border: none;
-    border-radius: 20px;
-    margin-top: 23px;
+    border-radius: 10px;
+    margin-top: 43px;
     background-color: rgba(16,89,255, 1);
 
 }
@@ -116,17 +117,20 @@ input.submit {
 
 #fb, #twitter, #google {
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 55px;
     margin-right: 25px;
     color: white;
     padding: 15px;
     border-radius: 25%;
-    box-shadow: 0 5px #666;
+    /* box-shadow: 0 5px #666; */
+    box-shadow: inset 0px 0px 7px 0px #666;
     transform: translateY(4px);
     cursor: pointer;
 }
 #fb{
     background: blue;
+    width: 45px;
+
 }
 #twitter{
     background:lightblue;

@@ -131,6 +131,7 @@ button:focus {
   margin-left: 40px;
 }
 .logoText {
+  width: max-content;
   font-size: 28px;
   color: rgb(250, 84, 7);
   font-weight: inherit;
