@@ -12,7 +12,8 @@ function NavBar(props) {
       <nav className="navbar">
         <div className="outreachLogo">
         <a className="navContent" href="/">
-          <img src="/img/outreachDesignLogo.PNG" height="45px" />
+          <img src="/img/outreachDesignLogo.PNG" height="45px" /></a>
+          <a className="navContent" href="/">
           <div className="logoText">Outreach Design</div>
           </a>
         </div>
